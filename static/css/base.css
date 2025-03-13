@@ -198,7 +198,7 @@ div a.dropdown-item.nav-bold.nav-link:hover {
     min-width: 100px;
     font-weight: bold;
     margin-top: 10px;
-    color: #f05f40;
+    color: #000;
 }
 
 /* End of the code from Whiskey Drop. -----*/
@@ -289,6 +289,7 @@ div a.dropdown-item.nav-bold.nav-link:hover {
     color: #212529;
     background-color: white;
 }
+
 
 /* test on the footer */
 
