@@ -1,8 +1,28 @@
 {% extends "base.html" %}
-
 {% load static %}
 
+{% block extra_title %}| Ezperanza {% endblock %}
+
 {% block content %}
-    <h1 class="display-4 text-success">It works!</h1>
+    <!-- Callout -->
+<div class="container-fluid callout-container">
+    <div class="opaque-overlay">&nbsp;</div>
+    <div class="row">
+        <div class="col-12">
+            <section class="callout jumbotron text-center">
+                <h1 class="jumbotron-header">The finest Coffee direct to you.</h1>
+                <hr class="block-divider block-divider--orange">
+                {% if not request.user.is_authenticated %}
+                <p class="lead">Sign up today for faster checkout. Registered users will gain discounts with enough
+                    purchases!</p>
+                <a class="btn btn--red btn--cta btn-lg" href="{% url 'account_signup' %}">Sign
+                    Up!</a>
+                {% endif %}
+                <p class="text-muted"><small> Coders Roast House Source Only From Fair Trade Coffee Growers</small></p>
+            </section>
+        </div>
+    </div>
+</div>
+<!-- Callout done. -->
 {% endblock %}
 
