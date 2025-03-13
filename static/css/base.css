@@ -280,6 +280,19 @@ div a.dropdown-item.nav-bold.nav-link:hover {
     background-color: transparent;
 }
 
+/* test on the footer */
+.container-wrapper--gold {
+    background-color: #007c00;
+}
+
+.badge-warning {
+    color: #212529;
+    background-color: white;
+}
+
+/* test on the footer */
+
+
 /* pad the top for most pages for navbar on mobile */
 @media (max-width: 426px) {
     .header-container {
