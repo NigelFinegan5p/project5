@@ -38,3 +38,259 @@ body {
     position: relative;
 }
 
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+/* Page Headers */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+.quotes .page-header {
+    margin-bottom: 25px;
+}
+
+.header-container {
+    padding-top: 75px;
+}
+
+/* Block dividers */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
+}
+
+.block-divider--orange {
+    background-color: #007c00;
+}
+
+.block-divider--white {
+    background-color: #fff;
+}
+
+.block-divider--short {
+    width: 35px;
+}
+
+/* Content containers */
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+/* Navbars */
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.navbar-dark {
+    background-color: #000;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-bold {
+    font-weight: bold;
+}
+
+div a.dropdown-item.nav-bold.nav-link:hover {
+    background-color: #f9f9f9;
+    color: #000;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    color: #fff;
+    /* font-weight: bold; */
+    margin-bottom: 30px;
+}
+
+.jumbotron .lead {
+    color: #fff;
+    margin: 25px 0;
+}
+
+.jumbotron small {
+    font-size: 100%;
+    font-style: italic;
+    color: #d0d0d0;
+}
+
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--cart {
+    color: #df4929;
+}
+
+.btn--red {
+    color: #fff;
+    background-color: #007c00;
+    border-color: #007c00;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #df4929;
+    border-color: #df4929;
+    color: #fff;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+/* This makes the icons stand out a bit */
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+/* fancy Read More buttons! */
+.feature .btn {
+    background-color: #fff;
+    border-color: #fff;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
+}
+
+/* End of the code from Whiskey Drop. -----*/
+
+/* ------------------------------- bootstrap toasts */
+
+.message-container {
+    position: fixed;
+    top: 72px;
+    right: 15px;
+    z-index: 99999999999;
+}
+
+.custom-toast {
+    overflow: visible;
+}
+
+.toast-capper {
+    height: 2px;
+}
+
+/* ------------------------------- allauth edits */
+
+.allauth-form-inner-content label:not([for='id_remember']) {
+    display: none;
+}
+
+.allauth-form-inner-content button,
+.allauth-form-inner-content input[type='submit'] {
+	/* btn */
+	display: inline-block;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #f05f40;
+    border: 1px solid #f05f40;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 1rem;
+
+    /* standard bootstrap btn transitions */
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+/*
+    background-color: #;
+    border-color: #f05f40; */
+
+/* ------------------------------- misc */
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: #f9f9f9;
+    z-index: -1;
+}
+
+.logo-font {
+    text-transform: uppercase;
+}
+
+.update-link,
+.remove-item {
+    cursor: pointer;
+}
+
+.no-btn {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+/* pad the top for most pages for navbar on mobile */
+@media (max-width: 426px) {
+    .header-container {
+        padding-top: 82px;
+    }
+
+    .body {
+        height: calc(100vh - 82px);
+    }
+
+    /* .callout-container {
+        height: 50vh;
+    } */
+}
