@@ -48,12 +48,16 @@ body {
     color: white;
 }
 
+.bg-white {
+    background: #007c00 !important;
+}
+
 .text-black {
     color: #000 !important;
 }
 
 .border-black {
-    border: 1px solid black !important;
+    border: 2px solid black !important;
 }
 
 
