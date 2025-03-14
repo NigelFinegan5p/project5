@@ -2,156 +2,126 @@
 
 <!doctype html>
 <html lang="en">
-  <head>
 
-    {% block meta %}
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    {% endblock %}
+<head>
 
-    {% block extra_meta %}
-    {% endblock %}
+  {% block meta %}
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  {% endblock %}
 
-    {% block corecss %}
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  {% block extra_meta %}
+  {% endblock %}
+
+  {% block corecss %}
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-        <link rel="stylesheet" href="{% static 'css/base.css' %}">
-    {% endblock %}
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&display=swap">
+  <link rel="stylesheet" href="{% static 'css/base.css' %}">
+  {% endblock %}
 
-    {% block extra_css %}
-    {% endblock %}
+  {% block extra_css %}
+  {% endblock %}
 
-    {% block corejs %}
+  {% block corejs %}
+  <!-- Add your kit code -->
         <script src="https://kit.fontawesome.com/641bddbf35.js" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"
-    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
+integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
-    {% endblock %}
+integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+crossorigin="anonymous"></script>
+  {% endblock %}
 
-    {% block extra_js %}
-    {% endblock %}
+  {% block extra_js %}
+  {% endblock %}
 
-    <title>Coders Roast House {% block extra_title %}{% endblock %}</title>
-  </head>
+  <title>Coders Roast House {% block extra_title %}{% endblock %}</title>
+</head>
 
-  <body>
-    <!-- test-->
-    <!-- test-->
-    <!-- navbar testing and build-->
-    <div class="container-fluid">
-      <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
-          <a href="/" class="navbar-brand">Coders Roast House</a>
-          <!-- Create a button to collapse the menu buttons into a small button on mobile screens -->
-          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          <!-- The menu buttons wrapped in a div to be collapsible via the above code -->
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav mr-auto">
-                  <li class="nav-item mr-2"><a class="nav-link nav-bold" href="/">Home</a></li>
-                  <li class="nav-item mr-2"><button class="nav-link btn" data-toggle="modal" data-target="#aboutModal">About</button></li>
-                  <!-- A dropdown menu inside the collapsible - this leads to a selection of coffees -->
-                  <li class="nav-item dropdown">
-                      <a class="nav-link nav-bold dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Coffee
-                      </a>
-                      <!-- Test-->
-                      <!-- Test -->
-                      <!-- Here is the selection of coffees -->
-                      <div class="dropdown-menu navbar-dark" aria-labelledby="navbarDropdownMenuLink">
-                          {% for product in products %}
-                          <a class="dropdown-item nav-bold nav-link" href="{% url 'product_detail' product.id %}">{{ product.name }}</a>
-                          {% endfor %}
-                      </div>
-                  </li>
-                  {% if request.user.is_authenticated %}
-                      {% if request.user.is_superuser %}
-                          <li class="nav-item mr-2 d-md-none"><a href="{% url 'add_product' %}" class="nav-link">Manage</a></li>
-                      {% endif %}
-                  <li class="nav-item mr-2 d-md-none"><a class="nav-link" href="{% url 'profile' %}">Profile</a></li>
-                  <li class="nav-item mr-2 d-md-none"><a class="nav-link" href="{% url 'account_logout' %}">Logout</a></li>
-                  {% else %}
-                  <li class="nav-item mr-2 d-md-none"><a class="nav-link" href="{% url 'account_signup' %}">Register</a></li>
-                  <li class="nav-item mr-2 d-md-none"><a class="nav-link" href="{% url 'account_login' %}">Login</a></li>
-                  {% endif %}
-                  <li class="nav-item mr-2 d-md-none">
-                      <a href="" class="nav-link">
-                          <div class="text-center">
-                              <div><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
-                              <p class="my-0">
-                                  {% if grand_total %}
-                                      £{{ grand_total|floatformat:2 }}
-                                  {% else %}
-                                      £0.00
-                                  {% endif %}
-                              </p>
-                          </div>
-                      </a>
-                  </li>
-              </ul>
+<body>
+  <header class="container-fluid fixed-top">
+    <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
+      <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
+        <a href="{% url 'home' %}" class="nav-link main-logo-link">
+          <h2 class="logo-font text-black my-0"><strong>Coders </strong> Coffee </h2>
+        </a>
+      </div>
+      <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
+        <form method="GET" action="">
+          <div class="input-group w-100">
+            <input class="form-control border border-black rounded-0" type="text" name="q"
+              placeholder="Search our site">
+            <div class="input-group-append">
+              <button class="form-control btn btn-black border border-black rounded-0" type="submit">
+                <span class="icon">
+                  <i class="fas fa-search"></i>
+                </span>
+              </button>
+            </div>
           </div>
-          <!-- Dropdown end. -->
-          <div class="d-none d-md-block">
+        </form>
+      </div>
+      <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
+        <ul class="list-inline list-unstyled text-center text-lg-right my-0">
+          <li class="list-inline-item dropdown">
+            <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              <div class="text-center">
+                <div><i class="fas fa-user fa-lg"></i></div>
+                <p class="my-0">My Account</p>
+              </div>
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="user-options">
               {% if request.user.is_authenticated %}
-                  {% if request.user.is_superuser %}
-                      <a class="navbar-text btn btn--manage" href="{% url 'add_product' %}">Manage</a>
-                  {% else %}
-                  <p class="navbar-text my-auto mr-2 d-md-none d-lg-inline-block"><em>Amazing coffee direct to you!</em></p>
-                  {% endif %}
-              <a class="navbar-text btn" href="{% url 'profile' %}">Profile</a>
-              <a class="navbar-text btn" href="{% url 'account_logout' %}">Logout</a>
-              {% else %}
-              <p class="navbar-text my-auto mr-2 d-md-none d-lg-inline-block"><em>Amazing coffee direct to you!</em></p>
-              <a class="navbar-text btn" href="{% url 'account_signup' %}">Register</a>
-              <a class="navbar-text btn" href="{% url 'account_login' %}">Login</a>
+              {% if request.user.is_superuser %}
+              <a href="" class="dropdown-item">Product Management</a>
               {% endif %}
-          </div>
-          <div class="d-none d-md-inline-block">
-              <a href="" class="nav-link navbar-text btn btn--cart">
-                  <div class="text-center">
-                      <div><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
-                      <p class="my-0">
-                          {% if grand_total %}
-                              £{{ grand_total|floatformat:2 }}
-                          {% else %}
-                              £0.00
-                          {% endif %}
-                      </p>
-                  </div>
-              </a>
-          </div>
-      </nav>
-  </div>
-  
-  
+              <a href="" class="dropdown-item">My Profile</a>
+              <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
+              {% else %}
+              <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
+              <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
+              {% endif %}
+            </div>
+          </li>
+          <li class="list-inline-item">
+            <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="">
+              <div class="text-center">
+                <div><i class="fas fa-shopping-bag fa-lg"></i></div>
+                <p class="my-0">
+                  {% if grand_total %}
+                    ${{ grand_total|floatformat:2 }}
+                  {% else %}
+                    $0.00
+                  {% endif %}
+                </p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
 
-    <!-- navbar testing and build-->
-    
+  {% if messages %}
+  <div class="message-container"></div>
+  {% endif %}
 
-    {% if messages %}
-        <div class="message-container"></div>
-    {% endif %}
+  {% block page_header %}
+  {% endblock %}
 
-    {% block page_header %}
-    {% endblock %}
+  {% block content %}
+  {% endblock %}
 
-    {% block content %}
-    {% endblock %}
-    
-    {% block postloadjs %}
-    {% endblock %}
-    
-  </body>
-  
+  {% block postloadjs %}
+  {% endblock %}
+
+</body>
+
 </html>
-
 
