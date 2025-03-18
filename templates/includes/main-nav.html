@@ -5,9 +5,9 @@
                 All Products
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="" class="dropdown-item">By Price</a>
-                <a href="" class="dropdown-item ">By Rating</a>
-                <a href="" class="dropdown-item ">By Category</a>
+                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
+                <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
+                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
                 <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
         </li>
@@ -30,9 +30,9 @@
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="boxes-link">
                 <a href="{% url 'products' %}?category=special,special" class="dropdown-item">Special Box 1</a>
-                <a href="" class="dropdown-item">Special Box 2</a>
+                <a href="{% url 'products' %}?category=super" class="dropdown-item">Super Box 2</a>
                 <a href="" class="dropdown-item">Special Box 3</a>
-                <a href="{% url 'products' %}?category=boxes" class="dropdown-item">All Coffee Boxes</a>
+                <a href="{% url 'products' %}?category=boxes,special,super" class="dropdown-item">All Coffee Boxes</a>
             </div>
         </li>
 

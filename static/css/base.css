@@ -75,6 +75,12 @@ body {
 	z-index: -1;
 }
 
+/*------price on products -------*/
+
+.font-weight-bold {
+    font-weight: 700 !important;
+    color: orange;
+}
 
 /* -------------------------------- Media Queries */
 
@@ -110,5 +116,6 @@ body {
         height: calc(100vh - 116px);
     }
 }
+
 
 
