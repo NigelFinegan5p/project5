@@ -17,10 +17,10 @@
                 Coffee
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="coffee-link">
-                <a href="{% url 'products' %}?category=house" class="dropdown-item">House</a>
+                <a href="{% url 'products' %}?category=house,house" class="dropdown-item">House</a>
                 <a href="{% url 'products' %}?category=coffee" class="dropdown-item">Blends</a>
                 <a href="" class="dropdown-item">Blends 3</a>
-                <a href="{% url 'products' %}?category=house,coffee" class="dropdown-item">All Coffee</a>
+                <a href="{% url 'products' %}?category=coffee" class="dropdown-item">All Coffee</a>
             </div>
         </li>
 
@@ -29,7 +29,7 @@
                 Boxes
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="boxes-link">
-                <a href="" class="dropdown-item">Special Box 1</a>
+                <a href="{% url 'products' %}?category=boxes" class="dropdown-item">Special Box 1</a>
                 <a href="" class="dropdown-item">Special Box 2</a>
                 <a href="" class="dropdown-item">Special Box 3</a>
                 <a href="" class="dropdown-item">All Coffee Boxes</a>
