@@ -25,8 +25,6 @@ def checkout(request):
         currency=settings.STRIPE_CURRENCY,
     )
     
-    print(intent)
-
 
     order_form = OrderForm()
 
@@ -37,7 +35,7 @@ def checkout(request):
     template = 'checkout/checkout.html'
     context = {
         'order_form': order_form,
-        'stripe_public_key': 'pk_test_51Qw1MQHBSjol7KXaluWHfU7apiTG6SKjpP0BnR6uux0KTsXQvgPaGr2E1RQkR13vvdnAqKpcFB2sJJeWeQaAepk200Kllx2CcT',
+        'stripe_public_key': stripe_public_key,
         'client_secret': intent.client_secret,
     }
 
