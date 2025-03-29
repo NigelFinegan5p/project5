@@ -50,6 +50,9 @@ def all_products(request):
 
     current_sorting = f'{sort}_{direction}'
 
+    # Print statements for testing
+    
+
     context = {
         'products': products,
         'search_term': query,
@@ -92,4 +95,6 @@ def add_product(request):
     }
 
     return render(request, template, context)
+
+
 
