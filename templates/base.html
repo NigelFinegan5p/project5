@@ -74,6 +74,7 @@
           <li class="list-inline-item dropdown">
             <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true"
               aria-expanded="false">
+              <!--  test -->
               <div class="text-center">
                 <div><i class="fas fa-user fa-lg"></i></div>
                 <p class="my-0">My Account</p>
@@ -157,6 +158,34 @@
 
   {% endblock %}
 
+
+   <!-- Footer -->
+
+   <div class="container-fluid pt-2" id="footer-main">
+    {% include 'includes/main-footer.html' %}
+
+    <!-- Copyright -->
+    <div class="row pb-2 pb-lg-3 mt-0 pt-1 pt-lg-2 text-center text-lg">
+      <div class="col">
+        <div class="row">
+          <div class="col cream small ml-4">
+            <span>
+              &copy; Copyright<span id=copyright></span> | Coders Roast House |
+            </span>
+            <span class="d-none d-md-inline-block">Roasted in House </span>
+            <a href="https://github.com/" style="color: #007c00;" target="_blank" rel="noopener">
+              <i class="fab fa-github fa-lg ml-1" aria-hidden="true"></i>
+              <span class="sr-only">GitHub</span>
+            </a>
+            <a href="https://ie.linkedin.com/" style="color: #007c00;" target="_blank" rel="noopener">
+              <i class="fab fa-linkedin fa-lg ml-1" aria-hidden="true"></i>
+              <span class="sr-only">linkedin</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </body>
 
