@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 import os
+import dj_database_url
 from pathlib import Path
 if os.path.isfile('env.py'):
     import env
@@ -134,6 +135,11 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+# DATABASES = {
+#      'default': dj_database_url.parse('postgresql://neondb_owner:0DyjtX4ZKzMl@ep-green-field-a2e9hfhd.eu-central-1.aws.neon.tech/trek_fling_quaff_905745')
+#  }
+   
 
 
 # Password validation
