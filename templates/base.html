@@ -150,18 +150,18 @@
   {% block content %}
   {% endblock %}
 
-  {% block postloadjs %}
-
-  <script type="text/javascript">
-    $('.toast').toast('show');
-  </script>
-
-  {% endblock %}
+  <!--   tested -->
 
 
-   <!-- Footer -->
 
-   <div class="container-fluid pt-2" id="footer-main">
+  <!--   tested -->
+
+
+
+
+  <!-- Footer -->
+
+  <div class="container-fluid pt-2" id="footer-main">
     {% include 'includes/main-footer.html' %}
 
     <!-- Copyright -->
@@ -187,8 +187,14 @@
     </div>
   </div>
 
+  {% block postloadjs %}
+
+  <script type="text/javascript">
+    $('.toast').toast('show');
+  </script>
+
+  {% endblock %}
+
 </body>
 
 </html>
-
-
