@@ -32,6 +32,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     '127.0.0.1', # local host
     'localhost', # listen for stripe webhooks
+    'project-05-38137270b2e7.herokuapp.com', #heroku application
 ]
 
 
