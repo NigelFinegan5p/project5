@@ -132,7 +132,7 @@ WSGI_APPLICATION = 'coders.wsgi.application'
 
 if 'DATABASE_URL' in os.environ:
     DATABASES = {
-        'default': dj_database_url.parse(os.environ.get('postgresql://neondb_owner:0DyjtX4ZKzMl@ep-green-field-a2e9hfhd.eu-central-1.aws.neon.tech/trek_fling_quaff_905745'))
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
     }
 else: 
     DATABASES = {
