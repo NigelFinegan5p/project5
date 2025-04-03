@@ -132,7 +132,7 @@ WSGI_APPLICATION = 'coders.wsgi.application'
 
 if 'DATABASE_URL' in os.environ:
     DATABASES = {
-        'default': dj_database_url.parse(os.environ.get('DATABASE_URL').encode())
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
     }
 else: 
     DATABASES = {
@@ -142,17 +142,6 @@ else:
         }
     }
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
-
-# DATABASES = {
-#      'default': dj_database_url.parse('postgresql://neondb_owner:0DyjtX4ZKzMl@ep-green-field-a2e9hfhd.eu-central-1.aws.neon.tech/trek_fling_quaff_905745')
-#  }
-  
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
