@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+
+
+<div class="row">
+    <div class="col-md-8 mt-3 offset-md-2">
+        <!-- test user authentication-->
+        <!-- test user authentication-->
+        <h1>Choose From 3 vouchers</h1>
+        <ul>
+            {% for voucher in vouchers %}
+            <li>
+                <strong>{{ voucher.name }}</strong><br>
+                {{ voucher.description }}<br>
+                Price: €{{ voucher.price }}<br>
+                <img class="card-img-top" src="{% static 'images/20012025.jpg' %}" alt="Card image cap" size="10%">
+                <a class="btn btn-warning btn-lg" href="{% url 'book_voucher' voucher.id %}">Book Now !</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+
+{% endblock content %}
+
