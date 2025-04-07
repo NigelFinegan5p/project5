@@ -2,13 +2,21 @@
 {% block content %}
 {% load static %}
 
-<div class="row">
+<div class="container-fluid">
+    <div class="overlay"></div>
+        <hr>
+        <hr>
     <div class="col-md-8 mt-3 offset-md-2">
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
         <h1>Book {{ voucher.name }}</h1>
         <form method="POST">
             {% csrf_token %}
             {{ form.as_p }}
-            <button class="btn btn-warning btn-lg" type="submit">Book Voucher</button>
+            <button class="btn btn-black btn-lg" type="submit">Book Voucher</button>
         </form>
     </div>
 </div>

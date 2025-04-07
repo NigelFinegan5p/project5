@@ -26,12 +26,14 @@ def book_voucher(request, voucher_id):
     else:
         form = BookingForm(initial={'voucher': voucher})
 
-    return render(request, 'hello_world/book_voucher.html', {'form': form, 'voucher': voucher})
+    return render(request, 'book/book_voucher.html', {'form': form, 'voucher': voucher})
 
 
 def booking_confirmation(request, booking_id):
     # Get the booking details for confirmation
     booking = Booking.objects.get(id=booking_id)
-    return render(request, 'hello_world/booking_confirmation.html', {'booking': booking})
+    return render(request, 'book/booking_confirmation.html', {'booking': booking})
+
+
 
 
