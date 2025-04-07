@@ -2,17 +2,20 @@
 {% block content %}
 {% load static %}
 
-
 <div class="container-fluid">
     <div class="overlay"></div>
     <div class="col-md-8 mt-3 offset-md-2">
-         <hr>   
-         <hr>
-         <hr>
-         <hr>
-         <hr>
-         <hr>
-         <hr>
+        <!-- Instead of multiple <hr> tags, use divs with custom spacing -->
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        
+
         <h1>Choose From 3 Vouchers</h1>
         <ul>
             {% for voucher in vouchers %}
@@ -21,7 +24,7 @@
                 {{ voucher.description }}<br>
                 Price: €{{ voucher.price }}<br>
                 <img class="card-img-top" src="{% static 'images/20012025.jpg' %}" alt="Card image cap" size="10%">
-                <a class="btn btn-black btn-lg" href="{% url 'book_voucher' voucher.id %}">Book Now !</a>
+                <a class="btn btn-black btn-lg" href="{% url 'book_voucher' voucher.id %}">Book Now!</a>
             </li>
             {% endfor %}
         </ul>
@@ -29,6 +32,8 @@
 </div>
 
 {% endblock content %}
+
+
 
 
 
