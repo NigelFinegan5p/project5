@@ -23,6 +23,7 @@
                 {{ voucher.description }}<br>
                 Price: €{{ voucher.price }}<br>
                 <img class="card-img-top" src="{% static 'images/voucher1.jpg' %}" alt="Card image cap" size="10%">
+                <hr>
                 <a class="btn btn-black btn-lg" href="{% url 'book_voucher' voucher.id %}">Book Now!</a>
             </li>
             {% endfor %}
@@ -31,6 +32,11 @@
 </div>
 
 {% endblock content %}
+
+
+
+
+
 
 
 
