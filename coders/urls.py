@@ -30,9 +30,4 @@ urlpatterns = [
     path('contact/', include('contact.urls')),
     path('faq/', include('faq.urls')),
     path('book/', include('book.urls')),
-] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) # this causes the media folder to work.
-
-
-
-
-
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)  # this causes the media folder to work.  # noqa: E501

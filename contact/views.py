@@ -53,4 +53,3 @@ def view_contact_page(request):
 
 def contact_success(request):
     return render(request, 'contact/contact_success.html')
-
