@@ -1,9 +1,10 @@
-from django.shortcuts import render, redirect, reverse, HttpResponse, get_object_or_404
+from django.shortcuts import render, redirect, reverse, HttpResponse, get_object_or_404  # noqa: E501 
 from django.contrib import messages
 
 from products.models import Product
 
 # Create your views here.
+
 
 def view_bag(request):
     """ A view that renders the bag contents page """
@@ -36,7 +37,7 @@ def add_to_bag(request, item_id):
             messages.success(request, f'Added size {size.upper()} {product.name} to your bag')  # noqa: E501
     else:
         if item_id in list(bag.keys()):
-            bag[item_id] += quantity
+            bag[item_id] += quantity 
             messages.success(request, f'Updated {product.name} quantity to {bag[item_id]}')  # noqa: E01
         else:
             bag[item_id] = quantity
@@ -104,4 +105,4 @@ def remove_from_bag(request, item_id):
     except Exception as e:
 
         messages.error(request, f'Error removing item: {e}')
-        return HttpResponse(status=500) 
+        return HttpResponse(status=500)
