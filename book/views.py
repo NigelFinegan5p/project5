@@ -14,7 +14,7 @@ def voucher_list(request):
 def book_voucher(request, voucher_id):
     # Get the voucher based on the provided voucher_id
     voucher = Voucher.objects.get(id=voucher_id)
-    
+
     if request.method == 'POST':
         form = BookingForm(request.POST)
         if form.is_valid():
@@ -26,14 +26,10 @@ def book_voucher(request, voucher_id):
     else:
         form = BookingForm(initial={'voucher': voucher})
 
-    return render(request, 'book/book_voucher.html', {'form': form, 'voucher': voucher})
+    return render(request, 'book/book_voucher.html', {'form': form, 'voucher': voucher})  # noqa: E501
 
 
 def booking_confirmation(request, booking_id):
     # Get the booking details for confirmation
     booking = Booking.objects.get(id=booking_id)
-    return render(request, 'book/booking_confirmation.html', {'booking': booking})
-
-
-
-
+    return render(request, 'book/booking_confirmation.html', {'booking': booking})  # noqa: E501
