@@ -24,6 +24,7 @@ def add_to_bag(request, item_id):
         size = request.POST['product_size']
     bag = request.session.get('bag', {})
 
+
     if size:
         if item_id in list(bag.keys()):
             if size in bag[item_id]['items_by_size'].keys():
@@ -37,7 +38,7 @@ def add_to_bag(request, item_id):
             messages.success(request, f'Added size {size.upper()} {product.name} to your bag')  # noqa:E501
     else:
         if item_id in list(bag.keys()):
-            bag[item_id] += quantity 
+            bag[item_id] += quantity
             messages.success(request, f'Updated {product.name} quantity to {bag[item_id]}')  # noqa:E501
         else:
             bag[item_id] = quantity
@@ -106,5 +107,3 @@ def remove_from_bag(request, item_id):
 
         messages.error(request, f'Error removing item: {e}')
         return HttpResponse(status=500)
-    
-    
