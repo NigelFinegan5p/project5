@@ -27,14 +27,13 @@ class StripeWH_Handler:
         body = render_to_string(
             'checkout/confirmation_emails/confirmation_email_body.txt',
             {'order': order, 'contact_email': settings.DEFAULT_FROM_EMAIL})
-        
+
         send_mail(
             subject,
             body,
             settings.DEFAULT_FROM_EMAIL,
             [cust_email]
         )
-    
 
     def handle_event(self, event):
         """
@@ -43,7 +42,7 @@ class StripeWH_Handler:
         return HttpResponse(
             content=f'Unhandled webhook received: {event["type"]}',
             status=200)
-    
+
     def handle_payment_intent_succeeded(self, event):
         """
         Handle the payment_intent.succeeded webhook from Stripe
@@ -58,12 +57,11 @@ class StripeWH_Handler:
             intent.latest_charge
         )
 
-        billing_details = stripe_charge.billing_details # updated
+        billing_details = stripe_charge.billing_details  # updated  # noqa: E501
         shipping_details = intent.shipping
-        grand_total = round(stripe_charge.amount / 100, 2) # updated
+        grand_total = round(stripe_charge.amount / 100, 2)  # updated  # noqa: E501
 
-
-        # Clean data in the shipping details
+        # Clean data in the shipping details  # noqa: E501
         for field, value in shipping_details.address.items():
             if value == "":
                 shipping_details.address[field] = None
@@ -78,11 +76,10 @@ class StripeWH_Handler:
                 profile.default_country = shipping_details.address.country
                 profile.default_postcode = shipping_details.address.postal_code
                 profile.default_town_or_city = shipping_details.address.city
-                profile.default_street_address1 = shipping_details.address.line1
-                profile.default_street_address2 = shipping_details.address.line2
+                profile.default_street_address1 = shipping_details.address.line1  # noqa: E501
+                profile.default_street_address2 = shipping_details.address.line2  # noqa: E501
                 profile.default_county = shipping_details.address.state
                 profile.save()
-
 
         order_exists = False
         attempt = 1
@@ -110,7 +107,7 @@ class StripeWH_Handler:
         if order_exists:
             self._send_confirmation_email(order)
             return HttpResponse(
-                content=f'Webhook received: {event["type"]} | SUCCESS: Verified order already in database',
+                content=f'Webhook received: {event["type"]} | SUCCESS: Verified order already in database',  # noqa: E501
                 status=200)
         else:
             order = None
@@ -140,7 +137,7 @@ class StripeWH_Handler:
                         )
                         order_line_item.save()
                     else:
-                        for size, quantity in item_data['items_by_size'].items():
+                        for size, quantity in item_data['items_by_size'].items():  # noqa: E501
                             order_line_item = OrderLineItem(
                                 order=order,
                                 product=product,
@@ -156,9 +153,9 @@ class StripeWH_Handler:
                     status=500)
         self._send_confirmation_email(order)
         return HttpResponse(
-            content=f'Webhook received: {event["type"]} | SUCCESS: Created order in webhook',
+            content=f'Webhook received: {event["type"]} | SUCCESS: Created order in webhook',  # noqa: E501
             status=200)
-    
+
     def handle_payment_intent_payment_failed(self, event):
         """
         Handle the payment_intent.payment_failed webhook from Stripe
@@ -166,4 +163,3 @@ class StripeWH_Handler:
         return HttpResponse(
             content=f'Webhook received: {event["type"]}',
             status=200)
-    
