@@ -7,8 +7,6 @@ class BookingForm(forms.ModelForm):
         model = Booking
         fields = ['voucher', 'customer_name', 'customer_email']
 
-    voucher = forms.ModelChoiceField(queryset=Voucher.objects.all(), empty_label="Select a Voucher")
+    voucher = forms.ModelChoiceField(queryset=Voucher.objects.all(), empty_label="Select a Voucher")  # noqa: E501
     customer_name = forms.CharField(max_length=100)
     customer_email = forms.EmailField()
-
-

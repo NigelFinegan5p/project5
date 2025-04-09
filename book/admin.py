@@ -21,7 +21,3 @@ class BookingAdmin(admin.ModelAdmin):
 # Register the models with the admin site
 admin.site.register(Voucher, VoucherAdmin)
 admin.site.register(Booking, BookingAdmin)
-
-
-
-
