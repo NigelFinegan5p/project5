@@ -33,4 +33,5 @@ urlpatterns = [
     path('book/', include('book.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)  # this causes the media folder to work.  # noqa: E501
 
-handler404 = 'boutique_ado.views.handler404'
+
+handler404 = 'coders.views.handler404'
