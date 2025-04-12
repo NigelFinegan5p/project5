@@ -5,8 +5,6 @@ from .models import Subscriber, Newsletter
 from django.core.mail import send_mail
 from django.conf import settings
 
-from django.core.mail import send_mail
-from django.conf import settings
 
 def subscribe(request):
     if request.method == 'POST':
@@ -17,19 +15,17 @@ def subscribe(request):
             # Send confirmation email
             send_mail(
                 subject='Subscription Confirmation',
-                message='Thank you for subscribing to our newsletter!',
+                message='Thank you for subscribing to Roast House News!',
                 from_email=settings.DEFAULT_FROM_EMAIL,
                 recipient_list=[subscriber.email],
                 fail_silently=False,
             )
 
-            messages.success(request, 'Thank you for subscribing! A confirmation email has been sent.')
+            messages.success(request, 'Thank you for subscribing! A confirmation email has been sent.')  # noqa:E501
             return redirect('subscribe_success')
     else:
         form = SubscriptionForm()
     return render(request, 'newsletter/subscribe.html', {'form': form})
-
-
 
 
 def newsletter_list(request):
