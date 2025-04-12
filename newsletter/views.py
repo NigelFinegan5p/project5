@@ -21,12 +21,11 @@ def subscribe(request):
                 fail_silently=False,
             )
 
-            messages.success(request, 'Thank you for subscribing! A confirmation email has been sent.')
+            messages.success(request, 'Thank you for subscribing! A confirmation email has been sent.')  # noqa:E501
             return redirect('subscribe_success')
     else:
         form = SubscriptionForm()
     return render(request, 'newsletter/subscribe.html', {'form': form})
-
 
 
 def newsletter_list(request):
