@@ -1,10 +1,9 @@
 {% extends "base.html" %}
 {% load static %}
 
-{% block extra_title %}| Newsletter{% endblock %}
+{% block extra_title %}Message Sent{% endblock %}
 
-{% block extra_meta %}
-<meta name="description" content="Need some premium coffee, try coders Roast House">
+{% block extra_css %}
 {% endblock %}
 
 {% block page_header %}
@@ -15,7 +14,7 @@
     <div class="row mb-3">
         <div class="col text-center mt-5">
             <div class="d-flex justify-content-center mt-4">
-                <h1 class="logo-font">Newsletter</h1>
+                <h1 class="logo-font">Lets Get Roasting</h1>
             </div>
             <hr class="w-50 mb-1">
         </div>
@@ -23,30 +22,20 @@
 </div>
 {% endblock %}
 
-
 {% block content %}
 <div class="overlay"></div>
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card shadow-lg border-9">
-                <div class="card-body">
-
-                    <h2>Subscribe to our Newsletter</h2>
-                    <form method="post">
-                        {% csrf_token %}
-                        {{ form.as_p }}
-                        <button type="submit" class="btn btn-primary">Subscribe</button>
-                    </form>
-                    
-
-                </div>     
+                <div class="card-body text-center">
+                    <p>Thank you for Signing up to Coders Roast House Newsletter</p>
+                    <a href="{% url 'home' %}" class="btn btn-black text-uppercase mt-3" aria-label="Go back to home page">Back Home</a>
+                </div>
             </div>
         </div>
     </div>
 </div>
-
 {% endblock %}
-
 
 
