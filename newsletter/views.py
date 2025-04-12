@@ -15,7 +15,7 @@ def subscribe(request):
             # Send confirmation email
             send_mail(
                 subject='Subscription Confirmation',
-                message='Thank you for subscribing to our newsletter!',
+                message='Thank you for subscribing to Roast House News!',
                 from_email=settings.DEFAULT_FROM_EMAIL,
                 recipient_list=[subscriber.email],
                 fail_silently=False,
