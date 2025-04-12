@@ -1,11 +1,13 @@
 from django.db import models
 
+
 class Subscriber(models.Model):
     email = models.EmailField(unique=True)
     subscribed_on = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
         return self.email
+
 
 class Newsletter(models.Model):
     subject = models.CharField(max_length=255)
@@ -15,4 +17,3 @@ class Newsletter(models.Model):
 
     def __str__(self):
         return self.subject
-    
