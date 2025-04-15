@@ -1,11 +1,10 @@
-{% with unique_id=item.item_id|stringformat:"s"|add:"_"|add:item.size|default:"nosize" %}
 <form class="form update-form" method="POST" action="{% url 'adjust_bag' item.item_id %}">
     {% csrf_token %}
     <div class="form-group">
         <div class="input-group">
             <div class="input-group-prepend">
                 <button class="decrement-qty btn btn-sm btn-black rounded-0" 
-                    data-item_id="{{ unique_id }}" id="decrement-qty_{{ unique_id }}">
+                    data-item_id="{{ item.item_id }}" id="decrement-qty_{{ item.item_id }}">
                     <span>
                         <i class="fas fa-minus fa-sm"></i>
                     </span>
@@ -13,11 +12,11 @@
             </div>
             <input class="form-control form-control-sm qty_input" type="number"
                 name="quantity" value="{{ item.quantity }}" min="1" max="99"
-                data-item_id="{{ unique_id }}"
-                id="id_qty_{{ unique_id }}">
+                data-item_id="{{ item.item_id }}"
+                id="id_qty_{{ item.item_id }}">
             <div class="input-group-append">
                 <button class="increment-qty btn btn-sm btn-black rounded-0"
-                    data-item_id="{{ unique_id }}" id="increment-qty_{{ unique_id }}">
+                    data-item_id="{{ item.item_id }}" id="increment-qty_{{ item.item_id }}">
                     <span>
                         <i class="fas fa-plus fa-sm"></i>
                     </span>
@@ -30,11 +29,5 @@
     </div>
 </form>
 <a class="update-link text-info"><small>Update</small></a>
-<a class="remove-item text-danger float-right" 
-   id="remove_{{ unique_id }}" 
-   data-product_size="{{ item.size }}">
-    <small>Remove</small>
-</a>
-{% endwith %}
-
+<a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}" data-product_size="{{ item.size }}"><small>Remove</small></a>
 
