@@ -18,6 +18,7 @@ from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
+from home.views import sitemap_view  # adjust import as needed
 
 
 urlpatterns = [
@@ -32,6 +33,7 @@ urlpatterns = [
     path('faq/', include('faq.urls')),
     path('book/', include('book.urls')),
     path('newsletter/', include('newsletter.urls')),
+    path('sitemap.xml', sitemap_view, name='sitemap'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)  # this causes the media folder to work.  # noqa: E501
 
 
