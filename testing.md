@@ -34,12 +34,16 @@ All pages passed validation, except for the Add Product and Edit Product pages.
 </details>
 
 
+<details>
+
 <summary> Coffee </summary>
 
 ![coffee page](https://github.com/NigelFinegan5p/project5/blob/main/xtra_documents/w3c/w3c.coffee.png)
 
 </details>
 
+
+<details>
 
 <summary> boxes </summary>
 
@@ -48,12 +52,16 @@ All pages passed validation, except for the Add Product and Edit Product pages.
 </details>
 
 
+<details>
+
 <summary> newsletter </summary>
 
 ![newsletter page](https://github.com/NigelFinegan5p/project5/blob/main/xtra_documents/w3c/w3cnewsletter.png)
 
 </details>
 
+
+<details>
 
 <summary> contact </summary>
 
@@ -62,6 +70,8 @@ All pages passed validation, except for the Add Product and Edit Product pages.
 </details>
 
 
+<details>
+
 <summary> BAG </summary>
 
 ![bag page](https://github.com/NigelFinegan5p/project5/blob/main/xtra_documents/w3c/w3cbag.png)
@@ -69,8 +79,11 @@ All pages passed validation, except for the Add Product and Edit Product pages.
 </details>
 
 
+<details>
+
 <summary> checkout </summary>
 
 ![checkout page](https://github.com/NigelFinegan5p/project5/blob/main/xtra_documents/w3c/w3c.checkout.png)
 
 </details>
+
