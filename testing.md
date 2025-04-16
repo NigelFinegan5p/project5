@@ -146,9 +146,10 @@ All files passed with no errors, additionally the VS code and installed app has 
 
 <details>
 
-<summary> Example screenshot of file that passed </summary>
+<summary> Example screenshot of file that passed - Custom model Newsletter </summary>
 
-![Profile pep8]()
+![Profile pep8](/xtra_documents/pep8/pep8..png)
+![Profile pep8](/xtra_documents/pep8/pep8...png)
 
 </details>
 
