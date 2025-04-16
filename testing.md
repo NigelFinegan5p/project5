@@ -112,6 +112,7 @@ All files passed with no errors.
 
 <br>
 <br>
+<br>
 
 
 
@@ -131,4 +132,31 @@ All files passed with no errors.  The Stripe one has an extra semi-colon and two
 </details>
 
 ---
+
+<br>
+<br>
+<br>
+
+
+### Python
+
+I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com) to validate all of my Python files.
+
+All files passed with no errors, additionally the VS code and installed app has allowed each file to highlight errors (problems) and ommisions in the CLI Command line interface.
+
+<details>
+
+<summary> Example screenshot of file that passed </summary>
+
+![Profile pep8]()
+
+</details>
+
+---
+
+
+<br>
+<br>
+<br>
+
 
