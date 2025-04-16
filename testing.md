@@ -235,11 +235,12 @@ All validation tools and device/browser testing confirm that the project functio
 
 ## Lighthouse Audit
 
-I tested my deployed project using the Lighthouse Audit tool in Chrome DevTools on each page, in incognito mode.
+I tested my project using the Lighthouse tool in Chrome DevTools on each page to ensure it performs well across various aspects.
 
-Initially, I used the Lighthouse extension to test, and the performance scores were higher. However, when I switched to the tool in Chrome DevTools, the scores were lower. I retried testing each page with the DevTools method, and the scores below reflect that. 
+At first, I used the Lighthouse extension, which gave me higher performance scores. However, when I switched to using the Lighthouse tool in Chrome DevTools, the scores were lower than expected. To make sure I had accurate results, I retried the tests for all pages using DevTools, and the scores below are based on those updated tests.
 
-While the performance scores are lower than I’d like, I plan to address this in future development. More importantly, I was concerned about the accessibility scores, which appear to be satisfactory.
+While the performance scores are not as high as I would like them to be, I plan to work on improving them in future updates. My main concern was the accessibility scores, and I’m happy to report that they look great, which is a positive outcome.
+
 
 ### Lighthouse Results Table
 
