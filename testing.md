@@ -104,7 +104,7 @@ All files passed with no errors.
 
 <summary> CSS screenshot of file that passed </summary>
 
-![Profile css]()
+![Profile css](https://github.com/NigelFinegan5p/project5/blob/main/xtra_documents/w3c/css_validator.png)
 
 </details>
 
