@@ -233,4 +233,44 @@ All validation tools and device/browser testing confirm that the project functio
 
 
 
+## Lighthouse Audit
+
+I tested my deployed project using the Lighthouse Audit tool in Chrome DevTools on each page, in incognito mode.
+
+Initially, I used the Lighthouse extension to test, and the performance scores were higher. However, when I switched to the tool in Chrome DevTools, the scores were lower. I retried testing each page with the DevTools method, and the scores below reflect that. 
+
+While the performance scores are lower than I’d like, I plan to address this in future development. More importantly, I was concerned about the accessibility scores, which appear to be satisfactory.
+
+### Lighthouse Results Table
+
+<details>
+
+<summary> Table </summary>
+
+| Page                | Screenshot                                               | Comments |
+|---------------------|----------------------------------------------------------|----------|
+| **Home**            | ![Home Screenshot](#)                                    |          |
+| **Products**        | ![Products Screenshot](#)                                |          |
+| **Product Detail**  | ![Product Detail Screenshot](#)                           |          |
+| **Our Story**       | ![Our Story Screenshot](#)                               |          |
+| **FAQ**             | ![FAQ Screenshot](#)                                     |          |
+| **Contact**         | ![Contact Screenshot](#)                                  |          |
+| **Contact Success** | ![Contact Success Screenshot](#)                          |          |
+| **My Profile**      | ![My Profile Screenshot](#)                               |          |
+| **Order Summary**   | ![Order Summary Screenshot](#)                            |          |
+| **My Wishlist**     | ![My Wishlist Screenshot](#)                             |          |
+| **Register**        | ![Register Screenshot](#)                                |          |
+| **Login**           | ![Login Screenshot](#)                                   |          |
+| **Logout**          | ![Logout Screenshot](#)                                  |          |
+| **Add Product**     | ![Add Product Screenshot](#)                              |          |
+| **Edit Product**    | ![Edit Product Screenshot](#)                             |          |
+| **Basket**          | ![Basket Screenshot](#)                                  |          |
+| **Checkout**        | ![Checkout Screenshot](#)                                |          |
+| **Order Confirmation**| ![Order Confirmation Screenshot](#)                      |          |
+
+</details>
+
+
+
+
 
