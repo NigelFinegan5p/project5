@@ -174,3 +174,47 @@ Running the following commmand ( python -m flake8 --exclude .venv,.vscode,migrat
 <br>
 
 
+## Dev Tools/Real World Device Testing
+---
+
+Responsiveness testing was carried out using Google Dev Tools on the devices detailed within the below table. Responsiveness was evident on all features throughout all tested devices. ( 320 x 640 tested extensively )
+  
+<br>
+
+### Dev Tools Device Testing - all features tested, issues noted below
+
+| Device  | Feature    | Issue  | Fix  |
+| ------- | ---------- | ------ |------|
+| iPhone SE | Product Detail page | Page wokrs well adaquate space | None needed |
+| Nest Hub Max | All features | No issues | None needed |
+| iPad Mini | Product page and Product Detail page | satisfactory layout | Still updated bootstrap for responsivity |
+| Asus Zenbook Fold | Product page and Product Detail page | satisfactory layout | Updated css and bootstrap for responsivity and button color matching |
+   
+<br>
+
+### Real World Device Testing
+
+| Device      | Feature    | Issue  | Fix  | 
+| ------------| ---------- | ------ |------|
+| Samsung S9 | All features | No issues | None needed |
+| iPad Pro (2020) | All features |  No issues  | None needed |
+| HP 15S laptop  | All features | No issues | None needed |
+| Google Pixel 6 | All features | No issues | None needed |
+| Samsung S22 | All features | No issues | None needed |
+
+
+### Browser Compatibility
+
+I've tested my deployed project on multiple browsers to check for compatibility issues.
+
+| Browser | Notes |
+| --- | --- |
+| Chrome | Works as expected & intended ( majority Market share browser ) |
+| Edge | Works as intended |
+| Safari | Works as intended |
+| Firefox | Works as intended |
+
+<details>
+
+
+
