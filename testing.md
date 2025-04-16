@@ -62,8 +62,15 @@ All pages passed validation, except for the Add Product and Edit Product pages.
 </details>
 
 
-<summary> FAQ </summary>
+<summary> BAG </summary>
 
-![faq page]()
+![bag page]()
+
+</details>
+
+
+<summary> checkout </summary>
+
+![checkout page]()
 
 </details>
