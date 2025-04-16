@@ -13,7 +13,7 @@ Since the project uses Jinja syntax (like {% extends "base.html" %} and {{ form|
 3. Copy the complete HTML code and paste it into the [validate by input](https://validator.w3.org/#validate_by_input) option.
 4. Fix any errors or warnings, revalidate, and record results.
 
-All pages passed validation, one error showing and reached out to Tutor support on this. 
+All pages passed validation. One error was shown, and I reached out to Tutor support regarding it. 
 
 
 <details>
@@ -118,7 +118,7 @@ All files passed with no errors.
 
 ### JavaScript
 
-I have used the recommended [JShint Validator](https://jshint.com) to validate my JS files.  The JS files in my project were not written by me but taken from Boutique Ado, Stripe and Course Material & Django by Antonio miele.
+I have used the recommended [JShint Validator](https://jshint.com) to validate my JS files. The JS files in my project were not written by me but were taken from Boutique Ado, Stripe, and course material from Django by Antonio Miele.
 
 All files passed with no errors.  The Stripe JS did not come from me so I am leaving it deployed.
 
@@ -142,14 +142,14 @@ All files passed with no errors.  The Stripe JS did not come from me so I am lea
 
 I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com) to validate all of my Python files.
 
-All files passed with no errors, additionally the VS code and installed app has allowed each file to highlight errors (problems) and ommisions in the CLI Command line interface.
+All files passed with no errors, additionally the VS code and installed app has allowed each file to highlight errors (problems) and omissions in the CLI Command line interface.
 
 Running the following commmand ( python -m flake8 --exclude .venv,.vscode,migrations )
-Shows any additional linting & unused code functions.
+This command shows any additional linting issues and unused code functions.
 
 <details>
 
-<summary> Example screenshot of file passed - Custom Model Newsletter (Model) </summary>
+<summary> Screenshot of PEP8-compliant newsletter model.py file </summary>
 
 ![Profile pep8](/xtra_documents/pep8/pep8..png)
 
@@ -160,7 +160,7 @@ Shows any additional linting & unused code functions.
 
 <details>
 
-<summary> Example screenshot of file passed - Custom Model Newsletter  (Views) </summary>
+<summary> Screenshot of PEP8-compliant newsletter model views.py file </summary>
 
 ![Profile pep8](/xtra_documents/pep8/pep8...png)
 
@@ -186,10 +186,10 @@ Responsiveness testing was carried out using Google Dev Tools on the devices det
 
 | Device  | Feature    | Issue  | Fix  |
 | ------- | ---------- | ------ |------|
-| iPhone  | Product Detail page | Page wokrs well adaquate space | None needed |
+| iPhone  | Product Detail page | Page works well, adequate space | None needed |
 | Responsive 320 x 640 | All features | No issues | None needed |
 | iPad Mini | Product page and Product Detail page | satisfactory layout | Still updated bootstrap for responsivity |
-| Galaxy Z fold 5 | Product page and Product Detail page | satisfactory layout | Updated css and bootstrap for responsivity and button color matching |
+| Galaxy Z fold 5 | Product page and Product Detail page | satisfactory layout | Updated CSS and Bootstrap for responsiveness and button color consistency. |
    
 <br>
 <br>
@@ -218,7 +218,9 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 | Safari | Works as intended |
 | Firefox | Works as intended |
 
+<br>
 
+All validation tools and device/browser testing confirm that the project functions as intended across platforms, with only minor tweaks needed for enhanced responsiveness and visual polish
 
 <br>
 <br>
