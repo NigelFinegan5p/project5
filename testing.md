@@ -147,7 +147,7 @@ All files passed with no errors, additionally the VS code and installed app has 
 
 <details>
 
-<summary> Example screenshot of file passed - Custom Model Newsletter </summary>
+<summary> Example screenshot of file passed - Custom Model Newsletter (Model) </summary>
 
 ![Profile pep8](/xtra_documents/pep8/pep8..png)
 
@@ -158,7 +158,7 @@ All files passed with no errors, additionally the VS code and installed app has 
 
 <details>
 
-<summary> Example screenshot of file passed - Custom Model Newsletter </summary>
+<summary> Example screenshot of file passed - Custom Model Newsletter  (Views) </summary>
 
 ![Profile pep8](/xtra_documents/pep8/pep8...png)
 
