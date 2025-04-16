@@ -184,25 +184,26 @@ Responsiveness testing was carried out using Google Dev Tools on the devices det
 
 ### Dev Tools Device Testing - all features tested, issues noted below
 
-| Device  | Feature    | Issue  | Fix  |
-| ------- | ---------- | ------ |------|
-| iPhone  | Product Detail page | Page works well, adequate space | None needed |
-| Responsive 320 x 640 | All features | No issues | None needed |
-| iPad Mini | Product page and Product Detail page | satisfactory layout | Still updated bootstrap for responsivity |
-| Galaxy Z fold 5 | Product page and Product Detail page | satisfactory layout | Updated CSS and Bootstrap for responsiveness and button color consistency. |
+| Device             | Feature                              | Issue                | Fix                                                                 |
+|--------------------|--------------------------------------|----------------------|----------------------------------------------------------------------|
+| iPhone             | Product detail page                  | Page works well, adequate space | None needed                                                         |
+| Responsive 320 x 640 | All features                        | No issues            | None needed                                                         |
+| iPad Mini          | Product page and product detail page | Satisfactory layout  | Updated Bootstrap for responsiveness                                |
+| Galaxy Z Fold 5    | Product page and product detail page | Satisfactory layout  | Updated CSS and Bootstrap for responsiveness and button color consistency |
+
    
 <br>
 <br>
 
 ### Real World Device Testing
 
-| Device      | Feature    | Issue  | Fix  | 
-| ------------| ---------- | ------ |------|
-| Samsung S8 | All features | No issues | None needed |
-| iPad Pro+ (2019) | All features |  No issues  | None needed |
-| HP probook  | All features | No issues | None needed |
-| Google android | All features | No issues | None needed |
-| Samsung S series | All features | No issues | None needed |
+| Device             | Feature       | Issue      | Fix         |
+|--------------------|---------------|------------|-------------|
+| Samsung S8         | All features  | No issues  | None needed |
+| iPad Pro+ (2019)   | All features  | No issues  | None needed |
+| HP ProBook         | All features  | No issues  | None needed |
+| Google Android     | All features  | No issues  | None needed |
+| Samsung S Series   | All features  | No issues  | None needed |
 
 <br>
 <br>
