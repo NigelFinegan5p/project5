@@ -180,6 +180,7 @@ Running the following commmand ( python -m flake8 --exclude .venv,.vscode,migrat
 Responsiveness testing was carried out using Google Dev Tools on the devices detailed within the below table. Responsiveness was evident on all features throughout all tested devices. ( 320 x 640 tested extensively )
   
 <br>
+<br>
 
 ### Dev Tools Device Testing - all features tested, issues noted below
 
@@ -190,6 +191,7 @@ Responsiveness testing was carried out using Google Dev Tools on the devices det
 | iPad Mini | Product page and Product Detail page | satisfactory layout | Still updated bootstrap for responsivity |
 | Asus Zenbook Fold | Product page and Product Detail page | satisfactory layout | Updated css and bootstrap for responsivity and button color matching |
    
+<br>
 <br>
 
 ### Real World Device Testing
@@ -202,6 +204,8 @@ Responsiveness testing was carried out using Google Dev Tools on the devices det
 | Google android | All features | No issues | None needed |
 | Samsung S series | All features | No issues | None needed |
 
+<br>
+<br>
 
 ### Browser Compatibility
 
@@ -216,6 +220,7 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 
 
 
+<br>
 <br>
 <br>
 <br>
