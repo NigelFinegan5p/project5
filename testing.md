@@ -144,6 +144,8 @@ I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com
 
 All files passed with no errors, additionally the VS code and installed app has allowed each file to highlight errors (problems) and ommisions in the CLI Command line interface.
 
+Running the following commmand ( python -m flake8 --exclude .venv,.vscode,migrations )
+
 
 <details>
 
