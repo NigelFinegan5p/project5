@@ -144,11 +144,22 @@ I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com
 
 All files passed with no errors, additionally the VS code and installed app has allowed each file to highlight errors (problems) and ommisions in the CLI Command line interface.
 
+
 <details>
 
-<summary> Example screenshot of file that passed - Custom model Newsletter </summary>
+<summary> Example screenshot of file passed - Custom Model Newsletter </summary>
 
 ![Profile pep8](/xtra_documents/pep8/pep8..png)
+
+
+</details>
+
+
+
+<details>
+
+<summary> Example screenshot of file passed - Custom Model Newsletter </summary>
+
 ![Profile pep8](/xtra_documents/pep8/pep8...png)
 
 </details>
