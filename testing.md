@@ -109,3 +109,26 @@ All files passed with no errors.
 </details>
 
 ---
+
+<br>
+<br>
+
+
+
+### JavaScript
+
+I have used the recommended [JShint Validator](https://jshint.com) to validate my JS files.  The JS files in my project were not written by me but taken from Boutique Ado, Stripe and CountryField.
+
+All files passed with no errors.  The Stripe one has an extra semi-colon and two undefined variables, but as it did not come from me I am leaving it alone.
+
+<details>
+
+<summary> Stripe screenshot </summary>
+
+![Stripe JS](/xtra_documents/w3c/jshint.png)
+
+
+</details>
+
+---
+
