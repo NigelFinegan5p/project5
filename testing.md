@@ -20,7 +20,7 @@ All pages passed validation, except for the Add Product and Edit Product pages.
 
 <summary> Home page </summary>
 
-![Home page]()
+![Home page](https://github.com/NigelFinegan5p/project5/blob/main/xtra_documents/w3c/homepage.png)
 
 </details>
 
@@ -29,48 +29,48 @@ All pages passed validation, except for the Add Product and Edit Product pages.
 
 <summary> All Products page </summary>
 
-![Product page]()
+![Product page](https://github.com/NigelFinegan5p/project5/blob/main/xtra_documents/w3c/allproducts.png)
 
 </details>
 
 
 <summary> Coffee </summary>
 
-![coffee page]()
+![coffee page](https://github.com/NigelFinegan5p/project5/blob/main/xtra_documents/w3c/w3c.coffee.png)
 
 </details>
 
 
 <summary> boxes </summary>
 
-![boxes page]()
+![boxes page](https://github.com/NigelFinegan5p/project5/blob/main/xtra_documents/w3c/w3cboxes.png)
 
 </details>
 
 
 <summary> newsletter </summary>
 
-![newsletter page]()
+![newsletter page](https://github.com/NigelFinegan5p/project5/blob/main/xtra_documents/w3c/w3cnewsletter.png)
 
 </details>
 
 
 <summary> contact </summary>
 
-![contact page]()
+![contact page](https://github.com/NigelFinegan5p/project5/blob/main/xtra_documents/w3c/w3ccontact.png)
 
 </details>
 
 
 <summary> BAG </summary>
 
-![bag page]()
+![bag page](https://github.com/NigelFinegan5p/project5/blob/main/xtra_documents/w3c/w3cbag.png)
 
 </details>
 
 
 <summary> checkout </summary>
 
-![checkout page]()
+![checkout page](https://github.com/NigelFinegan5p/project5/blob/main/xtra_documents/w3c/w3c.checkout.png)
 
 </details>
