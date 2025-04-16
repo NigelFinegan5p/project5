@@ -218,6 +218,9 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 | Edge    | Works as intended                                                    |
 | Safari  | Works as intended                                                    |
 | Firefox | Works as intended                                                    |
+| Opera   | Works as intended                                                    |
+| Brave   | Works as intended                                                    |
+
 
 <br>
 
