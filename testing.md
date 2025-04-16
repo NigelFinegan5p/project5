@@ -27,8 +27,43 @@ All pages passed validation, except for the Add Product and Edit Product pages.
 
 <details>
 
-<summary> Product page </summary>
+<summary> All Products page </summary>
 
 ![Product page]()
+
+</details>
+
+
+<summary> Coffee </summary>
+
+![coffee page]()
+
+</details>
+
+
+<summary> boxes </summary>
+
+![boxes page]()
+
+</details>
+
+
+<summary> newsletter </summary>
+
+![newsletter page]()
+
+</details>
+
+
+<summary> contact </summary>
+
+![contact page]()
+
+</details>
+
+
+<summary> FAQ </summary>
+
+![faq page]()
 
 </details>
