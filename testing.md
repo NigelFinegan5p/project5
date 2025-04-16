@@ -6,14 +6,14 @@
 
 For my HTML files, I have used [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files.
 
-Due to the usage of Jinja syntax (e.g., `{% extends "base.html" %}` and `{{ form|crispy }}`) and authentication requirements, the following approach was used for validation:
+Since the project uses Jinja syntax (like {% extends "base.html" %} and {{ form|crispy }}) and requires user authentication, this method was used for validation:
 
 1. Navigate to each individual page via the deployed Heroku app link.
 2. Right-click the screen or use `CTRL+U` (`⌘+U` on Mac) to "View page source."
 3. Copy the complete HTML code and paste it into the [validate by input](https://validator.w3.org/#validate_by_input) option.
 4. Fix any errors or warnings, revalidate, and record results.
 
-All pages passed validation, except for the Add Product and Edit Product pages.
+All pages passed validation, one error showing and reached out to Tutor support on this. 
 
 
 <details>
@@ -118,9 +118,9 @@ All files passed with no errors.
 
 ### JavaScript
 
-I have used the recommended [JShint Validator](https://jshint.com) to validate my JS files.  The JS files in my project were not written by me but taken from Boutique Ado, Stripe and CountryField.
+I have used the recommended [JShint Validator](https://jshint.com) to validate my JS files.  The JS files in my project were not written by me but taken from Boutique Ado, Stripe and Course Material & Django by Antonio miele.
 
-All files passed with no errors.  The Stripe one has an extra semi-colon and two undefined variables, but as it did not come from me I am leaving it alone.
+All files passed with no errors.  The Stripe JS did not come from me so I am leaving it deployed.
 
 <details>
 
@@ -145,7 +145,7 @@ I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com
 All files passed with no errors, additionally the VS code and installed app has allowed each file to highlight errors (problems) and ommisions in the CLI Command line interface.
 
 Running the following commmand ( python -m flake8 --exclude .venv,.vscode,migrations )
-
+Shows any additional linting & unused code functions.
 
 <details>
 
@@ -189,7 +189,7 @@ Responsiveness testing was carried out using Google Dev Tools on the devices det
 | iPhone  | Product Detail page | Page wokrs well adaquate space | None needed |
 | Responsive 320 x 640 | All features | No issues | None needed |
 | iPad Mini | Product page and Product Detail page | satisfactory layout | Still updated bootstrap for responsivity |
-| Asus Zenbook Fold | Product page and Product Detail page | satisfactory layout | Updated css and bootstrap for responsivity and button color matching |
+| Galaxy Z fold 5 | Product page and Product Detail page | satisfactory layout | Updated css and bootstrap for responsivity and button color matching |
    
 <br>
 <br>
@@ -199,7 +199,7 @@ Responsiveness testing was carried out using Google Dev Tools on the devices det
 | Device      | Feature    | Issue  | Fix  | 
 | ------------| ---------- | ------ |------|
 | Samsung S8 | All features | No issues | None needed |
-| iPad Pro+ (2020) | All features |  No issues  | None needed |
+| iPad Pro+ (2019) | All features |  No issues  | None needed |
 | HP probook  | All features | No issues | None needed |
 | Google android | All features | No issues | None needed |
 | Samsung S series | All features | No issues | None needed |
