@@ -212,12 +212,12 @@ Responsiveness testing was carried out using Google Dev Tools on the devices det
 
 I've tested my deployed project on multiple browsers to check for compatibility issues.
 
-| Browser | Notes |
-| --- | --- |
-| Chrome | Works as expected & intended ( majority Market share browser ) |
-| Edge | Works as intended |
-| Safari | Works as intended |
-| Firefox | Works as intended |
+| Browser | Notes                                                                 |
+|---------|-----------------------------------------------------------------------|
+| Chrome  | Works as expected and intended (majority market share browser)       |
+| Edge    | Works as intended                                                    |
+| Safari  | Works as intended                                                    |
+| Firefox | Works as intended                                                    |
 
 <br>
 
