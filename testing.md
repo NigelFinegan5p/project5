@@ -185,8 +185,8 @@ Responsiveness testing was carried out using Google Dev Tools on the devices det
 
 | Device  | Feature    | Issue  | Fix  |
 | ------- | ---------- | ------ |------|
-| iPhone SE | Product Detail page | Page wokrs well adaquate space | None needed |
-| Nest Hub Max | All features | No issues | None needed |
+| iPhone  | Product Detail page | Page wokrs well adaquate space | None needed |
+| Responsive 320 x 640 | All features | No issues | None needed |
 | iPad Mini | Product page and Product Detail page | satisfactory layout | Still updated bootstrap for responsivity |
 | Asus Zenbook Fold | Product page and Product Detail page | satisfactory layout | Updated css and bootstrap for responsivity and button color matching |
    
@@ -196,11 +196,11 @@ Responsiveness testing was carried out using Google Dev Tools on the devices det
 
 | Device      | Feature    | Issue  | Fix  | 
 | ------------| ---------- | ------ |------|
-| Samsung S9 | All features | No issues | None needed |
-| iPad Pro (2020) | All features |  No issues  | None needed |
-| HP 15S laptop  | All features | No issues | None needed |
-| Google Pixel 6 | All features | No issues | None needed |
-| Samsung S22 | All features | No issues | None needed |
+| Samsung S8 | All features | No issues | None needed |
+| iPad Pro+ (2020) | All features |  No issues  | None needed |
+| HP probook  | All features | No issues | None needed |
+| Google android | All features | No issues | None needed |
+| Samsung S series | All features | No issues | None needed |
 
 
 ### Browser Compatibility
@@ -214,7 +214,12 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 | Safari | Works as intended |
 | Firefox | Works as intended |
 
-<details>
+
+
+<br>
+<br>
+<br>
+
 
 
 
