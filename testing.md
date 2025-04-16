@@ -87,3 +87,25 @@ All pages passed validation, except for the Add Product and Edit Product pages.
 
 </details>
 
+
+
+<br>
+<br>
+<br>
+
+
+### CSS
+
+I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
+
+All files passed with no errors.
+
+<details>
+
+<summary> CSS screenshot of file that passed </summary>
+
+![Profile css]()
+
+</details>
+
+---
