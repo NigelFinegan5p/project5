@@ -483,7 +483,12 @@ Your coffee experience just got even more personal. With new user accounts, you�
 We know you’re always on the go, so we’re optimizing our mobile layout to make shopping from your phone even smoother. Whether you’re in line at the coffee shop or in your pajamas at 2 a.m., Coders Roast House will always be at your fingertips. No glitches, just great coffee.
 
 ### 6. **The Sophine Story**  
-Get ready to dive deep into the rich tale of Sophine, our signature roast. From a small hillside farm to your cup, the story of Sophine is filled with heritage, heart, and just the right amount of drama. It's more than coffee — it’s a story you’ll want to share (with a cup in hand, of course).
+Meet Sophine — our best customer, and also the inspiration behind our signature roast. As a designer who’s always on the lookout for perfect details, Sophine's journey with Coders Roast House started on a quest for exceptional, ethically-sourced coffee. From the moment she took her first sip, she fell in love with the rich, bold flavor of our beans.  
+
+We’re sharing her journey with you — from the small hillside farm where it all begins, to the careful roasting process, and ultimately to the cup in Sophine's hands. It’s a story of craftsmanship, passion, and a designer's eye for perfection. And much like her design work, Sophine's relationship with our coffee is all about the perfect balance of heritage, heart, and just the right amount of drama. 
+
+This isn’t just coffee — it’s a story that’s been brewed with care, creativity, and a deep connection to those who truly appreciate the art of coffee.
+
 
 ### 7. **QR Code Cards**  
 Each bag will come with a QR code card that opens the door to behind-the-scenes goodness: farm stories, brew tips, and even exclusive discounts. Just scan, sip, and let the coffee adventure begin. It’s like having a VIP pass to the world of Coders Roast House.
