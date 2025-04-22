@@ -273,5 +273,35 @@ While the performance scores are not as high as I would like them to be, I plan 
 
 
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
+## 🔄 Stripe and Webhooks
+
+### ✅ Stripe Payment Flow Test Plan
+
+| **Step** | **Description** | **Expected Result** | **Status** |
+|---------|------------------|----------------------|------------|
+| **1. Load Checkout Page** | Navigate to the checkout page with a test product in the cart. | Checkout page loads with correct order details. | ✅ Pass |
+| **2. Initiate Payment** | Enter delivery info and a valid test card (e.g., `4242 4242 4242 4242`), CVC, expiry, and ZIP. Click **Complete Order**. | Payment is processed and user is redirected to confirmation page. | ✅ Pass |
+| **3. Validate Webhook Trigger** | Confirm that Stripe sends webhook events: `payment_intent.created`, `charge.succeeded`, `payment_intent.succeeded`, and `charge.updated`. | Webhooks are received with 200 responses and correctly logged. | ✅ Pass |
+| **4. Verify Order in Database** | Check that a new order is recorded in the database. | Order matches the Stripe transaction ID and details. | ✅ Pass |
+| **5. Test Payment Failure** | Use a failing card (e.g., `4000 0000 0000 9995` - insufficient funds). | Payment fails with appropriate error message. | ✅ Pass |
+| **6. Check Email Notifications** | Confirm that a confirmation email is sent after successful payment. | Email is received with accurate order details. | ✅ Pass |
+| **7. Test 3D Secure (Auth Required)** | Use a card that requires authentication (e.g., `4000 0025 0000 3155`). | 3D Secure authentication modal appears. | ✅ Pass |
+| **8. Confirm Auth Success** | Complete the authentication in the test modal. | Payment succeeds, user is redirected, and webhook triggers. | ✅ Pass |
+| **9. Test Auth Failure** | Intentionally fail the authentication in the test modal. | Payment fails with an authentication error. | ✅ Pass |
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
