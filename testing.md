@@ -388,3 +388,39 @@ Manual testing was conducted to validate core navigation, authentication, checko
 | Complete Order | Click | Finalize order, redirect to confirmation | Pass | |
 
 </details>
+
+
+
+## 📧 Email Confirmation Testing – Coders Roast House
+
+
+<details>
+<summary>Click to view test table</summary>
+
+### ✅ Email Functionality Test Table
+
+| **Test Step** | **Scenario** | **Expected Email Behavior** | **Status** |
+|---------------|--------------|------------------------------|------------|
+| **1. Account Registration** | User registers with valid email | A confirmation email is sent with an activation or welcome link | ✅ Pass |
+| **2. Order Placement** | User completes a successful order via Stripe | Email is sent with: <br>• Unique order number <br>• Itemized product list <br>• Prices and totals <br>• Delivery info <br>• Estimated delivery time | ✅ Pass |
+| **3. Order with Saved Delivery Info** | User checks “Save info for next time” during checkout | Confirmation email includes saved delivery address details | ✅ Pass |
+| **4. Newsletter Signup** | User enters email in the newsletter form in footer and submits | Confirmation or "Thanks for subscribing" email is sent | ✅ Pass |
+| **5. Duplicate Newsletter Signup** | Same user tries to sign up again | System prevents duplicate subscription or notifies user | ✅ Pass |
+| **6. Email Branding** | Open any outgoing email (order/account/newsletter) | Email matches Coders Roast House branding (logo, fonts, color scheme) | ✅ Pass |
+| **7. Email Content Accuracy** | Email reflects: <br>• Correct order details <br>• Pricing breakdown <br>• Accurate customer info | ✅ Pass |
+| **8. Invalid Email Entry** | User tries to register or sign up with invalid email format | Form is rejected with error message | ✅ Pass |
+| **9. Duplicate Account Registration** | User attempts to register with an already-used email | Error is displayed or prevented | ✅ Pass |
+| **10. Missing Email Delivery** | No email is received after registration or order | Option to resend is available and works correctly | ✅ Pass |
+| **11. Spam Folder Check** | Confirmation or order email is sent | Email lands in inbox, not marked as spam | ✅ Pass |
+| **12. Admin Order Alert (Optional)** | New order is placed | Internal email is sent to Coders Roast House team with order details | ✅ Pass |
+
+
+</details>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
