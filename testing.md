@@ -454,3 +454,32 @@ And let’s be real — no one wants a slow checkout when they’re hungry for c
 If you’re after full functionality and don’t mind the extra weight, you can still find the fix in the final code.
 
 
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+# 🔮 Future Features Coming Soon to Coders Roast House
+
+Here’s a sneak peek at some delicious features we’re cooking up for future releases:
+
+### 1. **Faster Checkout Experience**  
+We’re working on a turbocharged checkout system that will make adding to your bag and completing purchases feel like a breeze — no lag, no delays.
+
+### 2. **Dynamic Product Recommendations**  
+Next, we’re adding personalized product recommendations right in your bag based on your browsing and past purchases. Get ready to discover more of what you love!
+
+### 3. **Dark Mode for Night Owls**  
+For all the late-night coders out there, we’re introducing a sleek Dark Mode to make your shopping experience easier on the eyes.
+
+### 4. **User Account Features**  
+Log in, save your favorite products, track your order history, and get special discounts. We’re giving you the tools to make your shopping experience even more personalized.
+
+### 5. **Improved Mobile Experience**  
+We’re fine-tuning our mobile layout and interactivity to ensure Coders Roast House works flawlessly across all devices.
+
