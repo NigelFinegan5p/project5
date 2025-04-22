@@ -253,13 +253,13 @@ While the performance scores are not as high as I would like them to be, I plan 
 | **Home**            | ![Home Screenshot](#)                                    |          |
 | **Products**        | ![Products Screenshot](#)                                |          |
 | **Product Detail**  | ![Product Detail Screenshot](#)                           |          |
-| **Our Story**       | ![Our Story Screenshot](#)                               |          |
+| **About**           | ![Our Story Screenshot](#)                               |          |
 | **FAQ**             | ![FAQ Screenshot](#)                                     |          |
 | **Contact**         | ![Contact Screenshot](#)                                  |          |
 | **Contact Success** | ![Contact Success Screenshot](#)                          |          |
 | **My Profile**      | ![My Profile Screenshot](#)                               |          |
 | **Order Summary**   | ![Order Summary Screenshot](#)                            |          |
-| **My Wishlist**     | ![My Wishlist Screenshot](#)                             |          |
+| **Newsletter**      | ![My Wishlist Screenshot](#)                             |          |
 | **Register**        | ![Register Screenshot](#)                                |          |
 | **Login**           | ![Login Screenshot](#)                                   |          |
 | **Logout**          | ![Logout Screenshot](#)                                  |          |
