@@ -438,3 +438,19 @@ Manual testing was conducted to validate core navigation, authentication, checko
 <br>
 <br>
 <br>
+
+
+
+# 🍖 Coders Roast House – Bug Fix Hold-Off 🐞
+
+At Coders Roast House, we spotted that pesky bug where the minus (–) button in the shopping bag doesn’t disable when the quantity hits 1 — especially on desktop.
+
+Code Institute offers a fix for this, and while it technically works, we found it added way too much lag to the “Add to Bag” process.
+
+And let’s be real — no one wants a slow checkout when they’re hungry for clean code.
+
+**So we skipped the fix** in the walkthrough version to keep the experience fast and smooth.
+
+If you’re after full functionality and don’t mind the extra weight, you can still find the fix in the final code.
+
+
