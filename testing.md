@@ -463,34 +463,30 @@ If you’re after full functionality and don’t mind the extra weight, you can 
 <br>
 
 
-
 # 🔮 Future Features Coming Soon to Coders Roast House
 
-Here’s a sneak peek at some delicious features we’re cooking up for future releases:
+We’re brewing up some exciting updates to enhance your coffee experience. Here’s a sneak peek at what’s coming soon — and we promise, it’s hotter than your morning cup of coffee:
 
 ### 1. **Faster Checkout Experience**  
-We’re working on a turbocharged checkout system that will make adding to your bag and completing purchases feel like a breeze — no lag, no delays.
+We know your time is valuable (especially when there’s coffee to be had). Our new turbocharged checkout system will get your order through faster than your Wi-Fi speed test can process. No lag, no delays — just smooth, seamless purchasing. 
 
 ### 2. **Dynamic Product Recommendations**  
-Next, we’re adding personalized product recommendations right in your bag based on your browsing and past purchases. Get ready to discover more of what you love!
+Ever wish your shopping experience could read your mind? Well, we’re getting pretty close. With personalized product recommendations based on what you’ve browsed and purchased, we’re making sure you never run out of coffee — or cool new finds. It's like having your own coffee concierge.  
 
 ### 3. **Dark Mode for Night Owls**  
-For all the late-night coders out there, we’re introducing a sleek Dark Mode to make your shopping experience easier on the eyes.
+For those late-night coding sprints or 2 a.m. coffee cravings, we’re introducing Dark Mode. Because who needs a blinding screen when you’re trying to caffeinate in peace? It's sleek, stylish, and easy on the eyes — so you can keep sipping without squinting.
 
 ### 4. **User Account Features**  
-Log in, save your favorite products, track your order history, and get special discounts. We’re giving you the tools to make your shopping experience even more personalized.
+Your coffee experience just got even more personal. With new user accounts, you’ll be able to save your favorite products, track your order history, and access special discounts. It’s like your own digital coffee vault — only with less danger of running out of beans.
 
 ### 5. **Improved Mobile Experience**  
-We’re fine-tuning our mobile layout and interactivity to ensure Coders Roast House works flawlessly across all devices.
-
+We know you’re always on the go, so we’re optimizing our mobile layout to make shopping from your phone even smoother. Whether you’re in line at the coffee shop or in your pajamas at 2 a.m., Coders Roast House will always be at your fingertips. No glitches, just great coffee.
 
 ### 6. **The Sophine Story**  
-We’ll be sharing the beautiful origin story of our signature roast — Sophine Story From Click to Sip: A Coffee Story Worth Sharing — including its journey from a small hillside farm to your cup. Expect rich storytelling, heritage details, and heart.
+Get ready to dive deep into the rich tale of Sophine, our signature roast. From a small hillside farm to your cup, the story of Sophine is filled with heritage, heart, and just the right amount of drama. It's more than coffee — it’s a story you’ll want to share (with a cup in hand, of course).
 
 ### 7. **QR Code Cards**  
-Scan and sip. Each bag will come with a QR code card that takes you straight to behind-the-scenes content: farm stories, brew tips, and even exclusive discount drops.
+Each bag will come with a QR code card that opens the door to behind-the-scenes goodness: farm stories, brew tips, and even exclusive discounts. Just scan, sip, and let the coffee adventure begin. It’s like having a VIP pass to the world of Coders Roast House.
 
 ### 8. **Handwritten Notes from Farmers**  
-Real notes. Real gratitude. We’re working on including personalized, handwritten-style messages from the farmers who grow our beans — because every roast has a face and a story.
-
-
+Every cup has a story, and now you’ll hear it straight from the source. We’re adding handwritten-style notes from the farmers who grow our beans, sharing their gratitude and a personal connection to your coffee. It’s like getting a thank-you note with your morning brew. (Because who doesn’t love a good handwritten note?)
