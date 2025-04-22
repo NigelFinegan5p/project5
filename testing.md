@@ -323,11 +323,11 @@ Manual testing was conducted to validate core navigation, authentication, checko
 | Navbar - Logo | Click on logo | Redirect to Home page | Pass | |
 | Navbar - Shop | Click on "Shop" link | Dropdown appears with product categories | Pass | |
 | Navbar - Shop > All Items | Click | Redirect to Products page | Pass | |
-| Navbar - Shop > Sourdough Starters & Flours | Click | Products page filtered correctly | Pass | |
-| Navbar - Shop > Baking Equipment | Click | Products page filtered correctly | Pass | |
-| Navbar - Shop > Cookbooks | Click | Products page filtered correctly | Pass | |
+| Navbar - Shop > All products | Click | Products page filtered correctly | Pass | |
+| Navbar - Shop > All coffee | Click | Products page filtered correctly | Pass | |
+| Navbar - Shop > Coffee Boxes | Click | Products page filtered correctly | Pass | |
 | Navbar - About | Click on "About" link | Dropdown appears with subpages | Pass | |
-| About > Our Story | Click | Redirect to Our Story page | Pass | |
+| About > Our Story & Contact form together | Click | Redirect to Our Story page | Pass | |
 | About > FAQ | Click | Redirect to FAQ page | Pass | |
 | About > Contact | Click | Redirect to Contact page | Pass | |
 | Search | Enter search term and submit | Redirect to filtered results page | Pass | |
@@ -340,8 +340,8 @@ Manual testing was conducted to validate core navigation, authentication, checko
 | Admin > Add New Product | Click | Redirect to Add Product page | Pass | |
 | Admin > Edit/Delete Product | Click | Redirect to Product Management page | Pass | |
 | **Footer** |||||
-| Footer links (Home, Shop, About, FAQ, Contact, Register, Login) | Click | Redirect to respective pages | Pass | |
-| Newsletter (if applicable) | Click "Subscribe" | Show confirmation message | Pass | |
+| Footer links (Copyright, sitemap, privacy policy, 6 x icons) | Click | Redirect to respective pages | Pass | |
+| Newsletter ( Custom Model) | Click "Subscribe" | Show confirmation message | Pass | |
 | Social Icons | Click | Open social platform in new tab | Pass | |
 | **Registration & Login** |||||
 | Register | Fill form and submit | Redirects to verification notice | Pass | |
