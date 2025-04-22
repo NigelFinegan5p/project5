@@ -507,18 +507,15 @@ Every cup has a story, and now you’ll hear it straight from the source. We’r
 <br>
 
 
+# Am I Responsive?
 
-## Am I Responsive?
+## Deployed Site
+Check out the live version here: [Am I Responsive](#)
 
-Here's deployed site: [Am I Responsive]()
+## Bypass X-Frame Headers for Site Mockups (Django Projects)
 
-![alt text](documentation/image/amiresponsive.png)
+### Chrome Extension
+Tired of X-Frame headers blocking your preview? Install the **"Ignore X-Frame Headers"** Chrome extension. It'll let you bypass those annoying security restrictions temporarily. Once you’ve done that, just reload the responsive preview page and voilà—view your site across all devices without hassle.
 
-## Ignore X-Frame Headers for Site Mockups (Django Projects)
-
-1. **Chrome Extension**: Install Igorne X-Frame headers for chrome to bypass this security restrisction temporarily. Then reload the responsive preview page to view site across devices.
-2. **Gitpod Solution**: Run project in Gitpod and, once active, navigate to the Ports tab. Make port 8000 public by clicking the padlock icon, then use the live preview URL in the responsive tool for an accurate preview.
-
-![alt text](documentation/image/ignorex.png)
-
-<hr>
+### Gitpod Solution
+Running the project on Gitpod? Sweet. Once your project’s active, head over to the **Ports tab** and make port 8000 public by clicking the padlock icon. Then, use the live preview URL in your responsive tool for a flawless device preview. No more guesswork!
