@@ -510,7 +510,7 @@ Every cup has a story, and now you’ll hear it straight from the source. We’r
 # Am I Responsive?
 
 ## Deployed Site
-Check out the live version here: [Am I Responsive](#)
+Tested and delpoyed the live version here: [Am I Responsive](https://ui.dev/amiresponsive)
 
 ## Bypass X-Frame Headers for Site Mockups (Django Projects)
 
@@ -519,3 +519,5 @@ Tired of X-Frame headers blocking your preview? Install the **"Ignore X-Frame He
 
 ### Gitpod Solution
 Running the project on Gitpod? Sweet. Once your project’s active, head over to the **Ports tab** and make port 8000 public by clicking the padlock icon. Then, use the live preview URL in your responsive tool for a flawless device preview. No more guesswork!
+
+![Am i responsive](/xtra_documents/features/FB-BANNER.jpg)
