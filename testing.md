@@ -305,3 +305,87 @@ While the performance scores are not as high as I would like them to be, I plan 
 <br>
 <br>
 <br>
+
+
+
+## 🛡️ Defensive Programming – Coders Roast House
+
+Manual testing was conducted to validate core navigation, authentication, checkout, and admin functions.
+
+<details>
+<summary>Click to view test table</summary>
+
+### ✅ Manual Testing Results
+
+| **Page** | **User Action** | **Expected Result** | **Pass/Fail** | **Comments** |
+|----------|------------------|----------------------|---------------|--------------|
+| **Navigation Links** |||||
+| Navbar - Logo | Click on logo | Redirect to Home page | Pass | |
+| Navbar - Shop | Click on "Shop" link | Dropdown appears with product categories | Pass | |
+| Navbar - Shop > All Items | Click | Redirect to Products page | Pass | |
+| Navbar - Shop > Sourdough Starters & Flours | Click | Products page filtered correctly | Pass | |
+| Navbar - Shop > Baking Equipment | Click | Products page filtered correctly | Pass | |
+| Navbar - Shop > Cookbooks | Click | Products page filtered correctly | Pass | |
+| Navbar - About | Click on "About" link | Dropdown appears with subpages | Pass | |
+| About > Our Story | Click | Redirect to Our Story page | Pass | |
+| About > FAQ | Click | Redirect to FAQ page | Pass | |
+| About > Contact | Click | Redirect to Contact page | Pass | |
+| Search | Enter search term and submit | Redirect to filtered results page | Pass | |
+| Auth Links | Click Register / Login / Basket icons | Redirect to respective pages | Pass | |
+| Account Dropdown | Click "Account" | Shows My Profile & Logout options | Pass | |
+| Account > My Profile | Click | Redirect to Profile page | Pass | |
+| Account > Logout | Click | Logs user out, redirect to Home | Pass | |
+| Admin Dropdown | Click "Admin" | Shows admin options | Pass | |
+| Admin > Admin Panel | Click | Redirect to Admin Dashboard | Pass | |
+| Admin > Add New Product | Click | Redirect to Add Product page | Pass | |
+| Admin > Edit/Delete Product | Click | Redirect to Product Management page | Pass | |
+| **Footer** |||||
+| Footer links (Home, Shop, About, FAQ, Contact, Register, Login) | Click | Redirect to respective pages | Pass | |
+| Newsletter (if applicable) | Click "Subscribe" | Show confirmation message | Pass | |
+| Social Icons | Click | Open social platform in new tab | Pass | |
+| **Registration & Login** |||||
+| Register | Fill form and submit | Redirects to verification notice | Pass | |
+| Login | Submit valid credentials | Redirect to Home page | Pass | |
+| Logout | Use Account > Logout | Logs user out, redirect Home | Pass | |
+| **User Profile** |||||
+| Update Info | Submit form | Info is saved | Pass | |
+| Order History | Click | Show order records, alert if empty | Pass | |
+| **Site Navigation (Logged Out User)** |||||
+| Try to access restricted page | Redirect to Login | Pass | |
+| **Product Listings** |||||
+| Product Image or Name | Click | Redirect to Product Details | Pass | |
+| Sorting dropdown | Select option | Products reorder accordingly | Pass | |
+| **Product Details** |||||
+| View full image | Click on product image | Opens larger image | Pass | |
+| Add to Basket | Click button | Adds item, show basket message | Pass | |
+| Keep Shopping | Click | Returns to product list | Pass | |
+| Logged out – Wishlist icon | Click | Redirect to Sign Up/Login | Pass | |
+| **Admin Product Controls** |||||
+| Edit button | Click | Redirect to edit form | Pass | |
+| Delete button | Click | Show delete confirmation modal | Pass | |
+| Delete modal - Confirm | Click | Delete product | Pass | |
+| Delete modal - Cancel | Click | Close modal | Pass | |
+| **FAQ** |||||
+| Question dropdown | Click | Toggle answer visibility | Pass | |
+| Back Home | Click | Return to Home page | Pass | |
+| **Contact Page** |||||
+| Form Inputs | Fill and submit | Redirect to success page, show message | Pass | |
+| Back Home (Contact Success) | Click | Return to Home | Pass | |
+| **Add/Edit Product – Admin Only** |||||
+| Add/Edit product form | Fill and submit | Save and redirect appropriately | Pass | |
+| Cancel (Edit) | Click | Return to Products page | Pass | |
+| **Basket Functionality** |||||
+| Quantity adjust | Use + / - buttons | Quantity changes | Pass | |
+| Update link | Click after quantity change | Subtotal/total update | Pass | |
+| Remove item | Click | Item removed, totals adjust | Pass | |
+| Keep Shopping | Click | Return to Products page | Pass | |
+| Secure Checkout | Click | Redirect to Checkout page | Pass | |
+| **Checkout Page** |||||
+| All input fields | Enter data | Required fields validated | Pass | |
+| Stripe Payment | Enter test card | Process payment | Pass | |
+| Save delivery info | Check box | Info saved to profile | Pass | |
+| Order summary items | Click name/image | Redirect to Product page | Pass | |
+| Adjust Basket | Click | Return to Basket page | Pass | |
+| Complete Order | Click | Finalize order, redirect to confirmation | Pass | |
+
+</details>
