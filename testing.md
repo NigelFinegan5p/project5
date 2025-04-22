@@ -523,7 +523,7 @@ Running the project on Gitpod? Sweet. Once your project’s active, head over to
 
 <details>
 
-<summary> Image </summary>
+<summary> Responsive Image </summary>
 
 ![Am i responsive](/xtra_documents/responsive/ami1.png)
 
@@ -532,7 +532,7 @@ Running the project on Gitpod? Sweet. Once your project’s active, head over to
 
 <details>
 
-<summary> Image </summary>
+<summary> Responsive Image </summary>
 
 ![Am i responsive2](/xtra_documents/responsive/ami2.png)
 
