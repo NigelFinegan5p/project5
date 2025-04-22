@@ -483,3 +483,14 @@ Log in, save your favorite products, track your order history, and get special d
 ### 5. **Improved Mobile Experience**  
 We’re fine-tuning our mobile layout and interactivity to ensure Coders Roast House works flawlessly across all devices.
 
+
+### 6. **The Sophine Story**  
+We’ll be sharing the beautiful origin story of our signature roast — Sophine Story From Click to Sip: A Coffee Story Worth Sharing — including its journey from a small hillside farm to your cup. Expect rich storytelling, heritage details, and heart.
+
+### 7. **QR Code Cards**  
+Scan and sip. Each bag will come with a QR code card that takes you straight to behind-the-scenes content: farm stories, brew tips, and even exclusive discount drops.
+
+### 8. **Handwritten Notes from Farmers**  
+Real notes. Real gratitude. We’re working on including personalized, handwritten-style messages from the farmers who grow our beans — because every roast has a face and a story.
+
+
