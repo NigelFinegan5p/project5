@@ -578,6 +578,8 @@ Despite the challenges, we made it through mostly unscathed. Of course, there ar
 **Project Swam** has taught us that success in both project management and testing isn’t about luck — it’s about hard work, attention to detail, and knowing when to pivot. And like all great projects, it’s about maintaining a balance between managing scope, staying focused, and continuously improving.
 
 **Happy roasting,**  
-☕🔥 — *The Project Swam Conclusion*
+☕🔥 — *The Project Swan Conclusion*
+
+
 
 
