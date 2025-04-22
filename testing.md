@@ -520,6 +520,20 @@ Tired of X-Frame headers blocking your preview? Install the **"Ignore X-Frame He
 ### Gitpod Solution
 Running the project on Gitpod? Sweet. Once your project’s active, head over to the **Ports tab** and make port 8000 public by clicking the padlock icon. Then, use the live preview URL in your responsive tool for a flawless device preview. No more guesswork!
 
+
+<details>
+
+<summary> Image </summary>
+
 ![Am i responsive](/xtra_documents/responsive/ami1.png)
 
+</details>
+
+
+<details>
+
+<summary> Image </summary>
+
 ![Am i responsive2](/xtra_documents/responsive/ami2.png)
+
+</details>
