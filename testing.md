@@ -495,3 +495,30 @@ Each bag will come with a QR code card that opens the door to behind-the-scenes 
 
 ### 8. **Handwritten Notes from Farmers**  
 Every cup has a story, and now you’ll hear it straight from the source. We’re adding handwritten-style notes from the farmers who grow our beans, sharing their gratitude and a personal connection to your coffee. It’s like getting a thank-you note with your morning brew. (Because who doesn’t love a good handwritten note?)
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+## Am I Responsive?
+
+Here's deployed site: [Am I Responsive]()
+
+![alt text](documentation/image/amiresponsive.png)
+
+## Ignore X-Frame Headers for Site Mockups (Django Projects)
+
+1. **Chrome Extension**: Install Igorne X-Frame headers for chrome to bypass this security restrisction temporarily. Then reload the responsive preview page to view site across devices.
+2. **Gitpod Solution**: Run project in Gitpod and, once active, navigate to the Ports tab. Make port 8000 public by clicking the padlock icon, then use the live preview URL in the responsive tool for an accurate preview.
+
+![alt text](documentation/image/ignorex.png)
+
+<hr>
