@@ -550,36 +550,42 @@ Running the project on Gitpod? Sweet. Once your project’s active, head over to
 <br>
 
 
-## 🧾 Final Thoughts (aka: The QA Journey)
 
-Well, here we are. **Congratulations!**  
-We truly appreciate your dedication and effort in seeing **Project Swam** through to the finish line. Now, go ahead and treat yourself to a well-deserved coffee — you've earned it.
+### The Evolution of Project Swan: The QA Journey
 
-We kicked off **Project Swam** on **December 28th, 2024**, still recovering from the holiday rush, running on leftover snacks, and probably too much caffeine. Like most projects, the start was full of excitement and optimism. Testing wasn’t exactly the first thing on our minds, but it didn’t take long for us to realize that skipping this step would result in late nights chasing down bugs that could’ve been caught much earlier.  
+Congratulations! We appreciate your dedication to bringing **Project Swan** to life. Now, treat yourself to that well-deserved coffee — you’ve earned it.
 
-As the project progressed, we learned that project management and testing go hand-in-hand. It’s not just about keeping things on track or meeting deadlines — it’s about creating quality deliverables that don’t leave us fixing preventable issues down the line. Through the process, we discovered:
+**Project Swan** began as a simple walkthrough from the **Code Institute’s HTML/CSS coffee house project**. What was initially a basic static café site soon evolved into a full-stack eCommerce platform. With features like a cart, checkout flow, and Stripe integration, **Project Swan** was transformed, but so was the complexity. As the project grew, quality assurance became essential to ensure everything worked seamlessly.
 
-- **Debugging is more art than science**: Like managing a project, it takes careful attention, patience, and the ability to anticipate problems before they appear.
-- **CI pipelines are both a blessing and a curse**: Timelines are a delicate balance, and sometimes it feels like CI just wants to throw a wrench in our plans.
-- **Flaky tests are the project’s rogue elements**: They disrupt the flow and can often make us second-guess the entire process. But as with every project, the key is to stay persistent and tackle the issues head-on.
-
-Despite the challenges, we made it through mostly unscathed. Of course, there are still a few bugs lingering in the system — but that’s all part of the learning process, right?
+We kicked off on December 28th, 2024, with excitement and optimism — but soon realized that skipping testing would result in late nights chasing bugs that could’ve been caught earlier.
 
 ---
 
-### Key Takeaways from Project Swam:
+### Key QA Lessons from Project Swan:
 
-- **Testing isn’t just a box to check**: Meaningful tests that are aligned with the project goals are key to preventing the dreaded “last-minute bug fix” cycle.
-- **Planning and discipline are everything**: Like any great project, success depends on careful preparation. We can’t afford to just “wing it” when it comes to quality assurance.
-- **Assertive testing is essential**: If it matters to the project, it should be tested thoroughly. Skipping tests only leads to pain down the line, especially when it’s time to hand over the final product.
+- **Debugging is an art:** As we built more features, debugging required careful attention to both the front-end and back-end. It was no longer just about fixing errors; it was about anticipating them.
+  
+- **CI pipelines:** While helpful, CI pipelines sometimes threw a wrench in our plans. They saved us from mistakes, but also tested our patience with tight timelines.
+
+- **Flaky tests:** Adding features like the cart and Stripe integration introduced flaky tests. Tackling them head-on became crucial for keeping the project on track.
+
+Despite the challenges, we made it through. A few bugs still linger, but that’s part of the learning process.
 
 ---
 
-**Project Swam** has taught us that success in both project management and testing isn’t about luck — it’s about hard work, attention to detail, and knowing when to pivot. And like all great projects, it’s about maintaining a balance between managing scope, staying focused, and continuously improving.
+### Key Takeaways:
+
+- **Testing isn’t just a checkbox:** From static site to full-stack platform, testing aligned with the project’s goals helped us avoid last-minute fixes and ensure quality.
+
+- **Planning and discipline matter:** Every feature needed careful planning and assertive testing. We couldn’t afford to skip QA, especially when it came to critical features like checkout.
+
+- **Assertive testing is key:** Features like the cart and payment integration required thorough testing to avoid issues later in the project.
+
+---
+
+**Project Swan** taught us that success isn’t about luck — it’s about attention to detail, persistence, and balancing scope with continuous improvement.
+
+---
 
 **Happy roasting,**  
 ☕🔥 — *The Project Swan Conclusion*
-
-
-
-
