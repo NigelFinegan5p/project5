@@ -320,9 +320,8 @@ Manual testing was conducted to validate core navigation, authentication, checko
 | **Page** | **User Action** | **Expected Result** | **Pass/Fail** | **Comments** |
 |----------|------------------|----------------------|---------------|--------------|
 | **Navigation Links** |||||
-| Navbar - Link ( CRH )| Click on logo | Redirect to Home page | Pass | |
+| Navbar - Link ( CRH )| Click on Coders Roast House | Redirect to Home page | Pass | |
 | Navbar - Shop Now | Click on "Shop" Button | Big Button Landing Page | Pass | |
-| Navbar - Shop > All Items | Click | Redirect to Products page | Pass | |
 | Navbar - Shop > All products | Click | Products page filtered correctly | Pass | |
 | Navbar - Shop > All coffee | Click | Products page filtered correctly | Pass | |
 | Navbar - Shop > Coffee Boxes | Click | Products page filtered correctly | Pass | |
