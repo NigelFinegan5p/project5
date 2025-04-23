@@ -1,7 +1,7 @@
 # 🔥 **Testing Report – Coders Roast House** 🔥  
 ### 🖥️ Device, Responsiveness, and Browser Compatibility Testing ✅
 
-![Coders Roast House Logo](/xtra_documents/features/FB-BANNER.jpg)  
+![Coders Roast House Logo](/xtra_documents/features/logo2.jpg)  
 *Ensuring top-notch performance across devices and browsers, because your coffee deserves the best brew!*
 
 ---
