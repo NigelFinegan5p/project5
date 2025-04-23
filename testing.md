@@ -565,19 +565,20 @@ We kicked things off on **December 28th, 2024**, still recovering from the holid
 
 - **Scale and Complexity:** As features like the shopping cart, Stripe integration, and dynamic user accounts were introduced, the scale of the project increased. Suddenly, we were working with **backend** and **frontend** complexities that were much more involved than anticipated. At this point, effective **project management** was crucial. We had to prioritize tasks, break down each feature into manageable chunks, and track progress carefully to avoid scope creep.
 
-- **Timelines:** We learned the hard way that no project is immune to **timeline challenges**. Initially, we underestimated how long some of the features — particularly the payment gateway integration — would take. This put pressure on the team and tested our **time management** skills. Deadlines loomed, and it was clear that we needed a more disciplined approach to keep things on track. We found ourselves constantly re-evaluating timelines, but through careful adjustments and iterative planning, we were able to meet most of our goals.
+- **Timelines:** We learned the hard way that no project is immune to **timeline challenges**. Initially, we underestimated how long some of the features — particularly the payment gateway integration — would take. This put significant pressure on me and tested my **time management** skills to the maximum. Deadlines loomed, and it was clear that i needed a more disciplined approach to keep things on track. I was constantly re-evaluating timelines, but through careful adjustments and iterative planning, finally we were able to meet most of our goals.
 
 ---
 
 ### What We Learned: Key QA Insights
 
-- **Debugging is a craft, not a checklist:** As **Project Swan** expanded from a simple static site to a dynamic, fully integrated eCommerce platform, debugging became a nuanced process. It wasn’t just about fixing issues; it was about anticipating potential problems and addressing them early in the development cycle.
+- **Debugging is a craft, not a checklist:** As our first eCommerce project evolved from a simple static site to a fully integrated platform, debugging became a nuanced process. It wasn’t just about fixing issues but about proactively identifying and addressing potential problems early on. **Manual click-by-click testing** played a key role, allowing us to uncover hidden issues, especially when testing complex flows like the shopping cart and payment processing via **Stripe**. We also used **webhooks for Stripe** to validate payment transactions and ensure proper order updates.
 
-- **CI pipelines: A blessing and a challenge:** The CI pipeline was our safety net, preventing small errors from ballooning into larger problems. But, as with any tool, it wasn’t always smooth sailing. Sometimes the automation worked against us, especially when tight timelines and feature requests clashed. Yet, when it worked, CI saved time and ensured code quality.
+- **Running tests 3x in the CLI:** Introducing features like the shopping cart and **Stripe integration** led to flaky tests and occasional inconsistencies. To ensure accuracy, we ran tests multiple times through the **CLI** using **Python**, **Stripe CLI**, and **PowerShell**. Running tests **3x in the terminal** helped us replicate real-world user conditions and provided a better understanding of how the platform performed in various scenarios. This approach allowed us to detect and resolve issues more efficiently.
 
-- **Flaky tests: The unpredictable elements:** Introducing features like a shopping cart and Stripe integration meant dealing with flaky tests. These small inconsistencies made us second-guess our entire testing strategy. But instead of getting frustrated, we tackled each flaky test with persistence, making it a learning opportunity for how to refine our testing approach moving forward.
+- **Flaky tests: The unpredictable elements:** With new features came challenges like flaky tests, particularly in integration points such as **Stripe** payments. These inconsistencies made us question the reliability of our testing strategy. However, instead of getting frustrated, we tackled each flaky test with persistence. Running tests through the CLI and manually reproducing the issues helped us refine our approach and improve the stability of the platform.
 
-Despite the challenges, we emerged from this process with valuable insights and a project that was functional, feature-rich, and bug-resistant (for the most part!). Yes, there are a few lingering bugs, but they are part of the learning journey.
+Despite the challenges, we emerged with valuable insights and a project that is now functional, feature-rich, and much more reliable. Yes, a few bugs remain, but they are part of the learning journey and will continue to shape our development process.
+
 
 ---
 
