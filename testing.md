@@ -188,8 +188,8 @@ This command shows any additional linting issues and unused code functions.
 
 <summary> Bag App </summary>
 
-![Bag App pep8]()
-![Bag App pep8]()
+![Bag App pep8](/xtra_documents/pep/pep2/bag/bag1.png)
+![Bag App pep8](/xtra_documents/pep/pep2/bag/bag2.png)
 
 </details>
 
@@ -197,10 +197,10 @@ This command shows any additional linting issues and unused code functions.
 
 <summary> Book App </summary>
 
-![Book App pep8]()
-![Book App pep8]()
-![Book App pep8]()
-![Book App pep8]()
+![Book App pep8](/xtra_documents/pep/pep2/book/book1.png)
+![Book App pep8](/xtra_documents/pep/pep2/book/book2.png)
+![Book App pep8](/xtra_documents/pep/pep2/book/book3.png)
+![Book App pep8](/xtra_documents/pep/pep2/book/book4.png)
 
 </details>
 
@@ -208,13 +208,13 @@ This command shows any additional linting issues and unused code functions.
 
 <summary> Checkout App </summary>
 
-![Checkout App pep8]()
-![Checkout App pep8]()
-![Checkout App pep8]()
-![Checkout App pep8]()
-![Checkout App pep8]()
-![Checkout App pep8]()
-![Checkout App pep8]()
+![Checkout App pep8](/xtra_documents/pep/pep2/checkout/check1.png)
+![Checkout App pep8](/xtra_documents/pep/pep2/checkout/check2.png)
+![Checkout App pep8](/xtra_documents/pep/pep2/checkout/check3.png)
+![Checkout App pep8](/xtra_documents/pep/pep2/checkout/check4.png)
+![Checkout App pep8](/xtra_documents/pep/pep2/checkout/check5.png)
+![Checkout App pep8](/xtra_documents/pep/pep2/checkout/check6.png)
+![Checkout App pep8](/xtra_documents/pep/pep2/checkout/check7.png)
 
 </details>
 
@@ -222,7 +222,7 @@ This command shows any additional linting issues and unused code functions.
 
 <summary> Coders App </summary>
 
-![Coders App pep8]()
+![Coders App pep8](/xtra_documents/pep/pep2/coders/coders1.png)
 
 </details>
 
@@ -230,9 +230,9 @@ This command shows any additional linting issues and unused code functions.
 
 <summary> Contact App </summary>
 
-![Contact App pep8]()
-![Contact App pep8]()
-![Contact App pep8]()
+![Contact App pep8](/xtra_documents/pep/pep2/contact/contact1.png)
+![Contact App pep8](/xtra_documents/pep/pep2/contact/contact2.png)
+![Contact App pep8](/xtra_documents/pep/pep2/contact/contact3.png)
 
 </details>
 
@@ -240,8 +240,8 @@ This command shows any additional linting issues and unused code functions.
 
 <summary> Faq App </summary>
 
-![Faq App pep8]()
-![Faq App pep8]()
+![Faq App pep8](/xtra_documents/pep/pep2/faq/faq1.png)
+![Faq App pep8](/xtra_documents/pep/pep2/faq/faq2.png)
 
 </details>
 
@@ -249,9 +249,9 @@ This command shows any additional linting issues and unused code functions.
 
 <summary> Newsletter App </summary>
 
-![Newsletter App pep8]()
-![Newsletter App pep8]()
-![Newsletter App pep8]()
+![Newsletter App pep8](/xtra_documents/pep/pep2/newsletter/news1.png)
+![Newsletter App pep8](/xtra_documents/pep/pep2/newsletter/news2.png)
+![Newsletter App pep8](/xtra_documents/pep/pep2/newsletter/news3.png)
 
 </details>
 
@@ -259,9 +259,9 @@ This command shows any additional linting issues and unused code functions.
 
 <summary> Products App </summary>
 
-![Products App pep8]()
-![Products App pep8]()
-![Products App pep8]()
+![Products App pep8](/xtra_documents/pep/pep2/products/product1.png)
+![Products App pep8](/xtra_documents/pep/pep2/products/product2.png)
+![Products App pep8](/xtra_documents/pep/pep2/products/product3.png)
 
 </details>
 
@@ -269,9 +269,9 @@ This command shows any additional linting issues and unused code functions.
 
 <summary> Profiles App </summary>
 
-![Profiles App pep8]()
-![Profiles App pep8]()
-![Profiles App pep8]()
+![Profiles App pep8](/xtra_documents/pep/pep2/profiles/profiles1.png)
+![Profiles App pep8](/xtra_documents/pep/pep2/profiles/profiles2.png)
+![Profiles App pep8](/xtra_documents/pep/pep2/profiles/profiles3.png)
 
 </details>
 
