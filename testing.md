@@ -184,7 +184,104 @@ This command shows any additional linting issues and unused code functions.
 
 ---
 
+<details>
 
+<summary> Bag App </summary>
+
+![Bag App pep8]()
+![Bag App pep8]()
+
+</details>
+
+<details>
+
+<summary> Book App </summary>
+
+![Book App pep8]()
+![Book App pep8]()
+![Book App pep8]()
+![Book App pep8]()
+
+</details>
+
+<details>
+
+<summary> Checkout App </summary>
+
+![Checkout App pep8]()
+![Checkout App pep8]()
+![Checkout App pep8]()
+![Checkout App pep8]()
+![Checkout App pep8]()
+![Checkout App pep8]()
+![Checkout App pep8]()
+
+</details>
+
+<details>
+
+<summary> Coders App </summary>
+
+![Coders App pep8]()
+
+</details>
+
+<details>
+
+<summary> Contact App </summary>
+
+![Contact App pep8]()
+![Contact App pep8]()
+![Contact App pep8]()
+
+</details>
+
+<details>
+
+<summary> Faq App </summary>
+
+![Faq App pep8]()
+![Faq App pep8]()
+
+</details>
+
+<details>
+
+<summary> Newsletter App </summary>
+
+![Newsletter App pep8]()
+![Newsletter App pep8]()
+![Newsletter App pep8]()
+
+</details>
+
+<details>
+
+<summary> Products App </summary>
+
+![Products App pep8]()
+![Products App pep8]()
+![Products App pep8]()
+
+</details>
+
+<details>
+
+<summary> Profiles App </summary>
+
+![Profiles App pep8]()
+![Profiles App pep8]()
+![Profiles App pep8]()
+
+</details>
+
+
+---
+
+
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
