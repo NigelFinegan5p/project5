@@ -366,21 +366,21 @@ While the performance scores are not as high as I would like them to be, I plan 
 | **Home**            | ![Home Screenshot](/xtra_documents/devtools/chrome/home.png)                                    |          |
 | **Products**        | ![Products Screenshot](/xtra_documents/devtools/chrome/products.png)                                |          |
 | **Product Detail**  | ![Product Detail Screenshot](/xtra_documents/devtools/chrome/productdetail.png)                           |          |
-| **About**           | ![Our Story Screenshot](#)                               |          |
-| **FAQ**             | ![FAQ Screenshot](#)                                     |          |
-| **Contact**         | ![Contact Screenshot](#)                                  |          |
-| **Contact Success** | ![Contact Success Screenshot](#)                          |          |
-| **My Profile**      | ![My Profile Screenshot](#)                               |          |
-| **Order Summary**   | ![Order Summary Screenshot](#)                            |          |
-| **Newsletter**      | ![My Wishlist Screenshot](#)                             |          |
-| **Register**        | ![Register Screenshot](#)                                |          |
-| **Login**           | ![Login Screenshot](#)                                   |          |
-| **Logout**          | ![Logout Screenshot](#)                                  |          |
-| **Add Product**     | ![Add Product Screenshot](#)                              |          |
-| **Edit Product**    | ![Edit Product Screenshot](#)                             |          |
-| **Basket**          | ![Basket Screenshot](#)                                  |          |
-| **Checkout**        | ![Checkout Screenshot](#)                                |          |
-| **Order Confirmation**| ![Order Confirmation Screenshot](#)                      |          |
+| **About**           | ![Our Story Screenshot](/xtra_documents/devtools/chrome/about.png)                               |          |
+| **FAQ**             | ![FAQ Screenshot](/xtra_documents/devtools/chrome/faq.png)                                     |          |
+| **Contact**         | ![Contact Screenshot](/xtra_documents/devtools/chrome/contact.png)                                  |          |
+| **Contact Success** | ![Contact Success Screenshot](/xtra_documents/devtools/chrome/contactsuccess.png)                          |          |
+| **My Profile**      | ![My Profile Screenshot](/xtra_documents/devtools/chrome/myprofile.png)                               |          |
+| **Order Summary**   | ![Order Summary Screenshot](/xtra_documents/devtools/chrome/orderconfirmation.png)                            |          |
+| **Newsletter**      | ![My Wishlist Screenshot](/xtra_documents/devtools/chrome/newsletter.png)                             |          |
+| **Register**        | ![Register Screenshot](/xtra_documents/devtools/chrome/register.png)                                |          |
+| **Login**           | ![Login Screenshot](/xtra_documents/devtools/chrome/login.png)                                   |          |
+| **Logout**          | ![Logout Screenshot](/xtra_documents/devtools/chrome/logout.png)                                  |          |
+| **Add Product**     | ![Add Product Screenshot](/xtra_documents/devtools/chrome/addproduct.png)                              |          |
+| **Edit Product**    | ![Edit Product Screenshot](/xtra_documents/devtools/chrome/editproduct.png)                             |          |
+| **Basket**          | ![Basket Screenshot](/xtra_documents/devtools/chrome/basket.png)                                  |          |
+| **Checkout**        | ![Checkout Screenshot](/xtra_documents/devtools/chrome/checkout.png)                                |          |
+| **Order Confirmation**| ![Order Confirmation Screenshot](/xtra_documents/devtools/chrome/orderconfirmation.png)                      |          |
 
 </details>
 
