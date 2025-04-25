@@ -612,10 +612,7 @@ Tested and delpoyed the live version here: [Am I Responsive](https://ui.dev/amir
 ## Bypass X-Frame Headers for Site Mockups (Django Projects)
 
 ### Chrome Extension
-Tired of X-Frame headers blocking your preview? Install the **"Ignore X-Frame Headers"** Chrome extension. It'll let you bypass those annoying security restrictions temporarily. Once you’ve done that, just reload the responsive preview page and voilà—view your site across all devices without hassle.
-
-### Gitpod Solution
-Running the project on Gitpod? Sweet. Once your project’s active, head over to the **Ports tab** and make port 8000 public by clicking the padlock icon. Then, use the live preview URL in your responsive tool for a flawless device preview. No more guesswork!
+Tired of X-Frame headers blocking your preview? Install the **"Ignore X-Frame Headers"** Chrome extension. It'll let you bypass those annoying security restrictions temporarily. Once you’ve done that, just reload the responsive preview page and voilà—view your site across all devices without hassle. Screenshots of the post install extension and run on ami responsive.
 
 
 <details>
