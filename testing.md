@@ -363,9 +363,9 @@ While the performance scores are not as high as I would like them to be, I plan 
 
 | Page                | Screenshot                                               | Comments |
 |---------------------|----------------------------------------------------------|----------|
-| **Home**            | ![Home Screenshot](#)                                    |          |
-| **Products**        | ![Products Screenshot](#)                                |          |
-| **Product Detail**  | ![Product Detail Screenshot](#)                           |          |
+| **Home**            | ![Home Screenshot](/xtra_documents/devtools/chrome/home.png)                                    |          |
+| **Products**        | ![Products Screenshot](/xtra_documents/devtools/chrome/products.png)                                |          |
+| **Product Detail**  | ![Product Detail Screenshot](/xtra_documents/devtools/chrome/productdetail.png)                           |          |
 | **About**           | ![Our Story Screenshot](#)                               |          |
 | **FAQ**             | ![FAQ Screenshot](#)                                     |          |
 | **Contact**         | ![Contact Screenshot](#)                                  |          |
