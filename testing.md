@@ -444,13 +444,13 @@ Manual testing was conducted to validate core navigation, authentication, checko
 | About > Contact | Click | Redirect to Contact page | Pass | |
 | Search | Enter search term and submit | Redirect to filtered results page | Pass | |
 | Auth Links | Click Register / Login / Basket icons | Redirect to respective pages | Pass | |
-| Account Dropdown | Click "Account" | Shows My Profile & Logout options | Pass | |
+| Account Dropdown | Click "Account" | Shows Register & Log in Logout options | Pass | |
 | Account > My Profile | Click | Redirect to Profile page | Pass | |
 | Account > Logout | Click | Logs user out, redirect to Home | Pass | |
 | Admin Dropdown (My Profile) | Click  | Shows admin options | Pass | |
 | Admin > Admin Panel (My Profile) | Click | Redirect to Admin Dashboard | Pass | |
-| Admin > Add New Product (My Profile)| Click | Redirect to Add Product page | Pass | |
-| Admin > Edit/Delete Product (My Profile)| Click | Redirect to Product Management page | Pass | |
+| Admin > Add New Product (Product Management)| Click | Redirect to Add Product page | Pass | |
+| Admin > Edit/Delete Product (My Profile)| Click | Redirect to Products page | Pass | |
 | **Footer** |||||
 | Footer links (Copyright, sitemap, privacy policy, 6 x icons) | Click | Redirect to respective pages | Pass | |
 | Newsletter ( Custom Model) | Click "Subscribe" | Show confirmation message | Pass | |
