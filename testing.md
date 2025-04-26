@@ -458,15 +458,15 @@ Manual testing was conducted to validate core navigation, authentication, checko
 | **Registration & Login** |||||
 | Register | Fill form and submit | Redirects to verification notice | Pass | |
 | Login | Submit valid credentials | Redirect to Home page | Pass | |
-| Logout | Use Account > Logout | Logs user out, redirect Home | Pass | |
+| Logout | User Account > Logout | Logs user out, redirect Home | Pass | |
 | **User Profile** |||||
 | Update Info | Submit form | Info is saved | Pass | |
 | Order History | Click | Show order records, alert if empty | Pass | |
 | **Site Navigation (Logged Out User)** |||||
 | Try to access restricted page | Redirect to Login | Pass | |
 | **Product Listings** |||||
-| Product Image or Name | Click | Redirect to Product Details | Pass | |
-| Sorting dropdown | Select option | Products reorder accordingly | Pass | |
+| Product Image or Name | Click | Open image to full screen image | Pass | |
+| Sorting dropdown | Select option | Products reorder accordingly (built in size -Unused) | Pass | |
 | **Product Details** |||||
 | View full image | Click on product image | Opens larger image | Pass | |
 | Add to Basket | Click button | Adds item, show basket message | Pass | |
