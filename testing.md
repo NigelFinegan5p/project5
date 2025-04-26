@@ -447,7 +447,7 @@ Manual testing was conducted to validate core navigation, authentication, checko
 | Account Dropdown | Click "Account" | Shows My Profile & Logout options | Pass | |
 | Account > My Profile | Click | Redirect to Profile page | Pass | |
 | Account > Logout | Click | Logs user out, redirect to Home | Pass | |
-| Admin Dropdown (My Profile) | Click "Admin" | Shows admin options | Pass | |
+| Admin Dropdown (My Profile) | Click  | Shows admin options | Pass | |
 | Admin > Admin Panel (My Profile) | Click | Redirect to Admin Dashboard | Pass | |
 | Admin > Add New Product (My Profile)| Click | Redirect to Add Product page | Pass | |
 | Admin > Edit/Delete Product (My Profile)| Click | Redirect to Product Management page | Pass | |
