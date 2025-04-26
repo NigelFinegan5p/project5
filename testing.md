@@ -447,10 +447,10 @@ Manual testing was conducted to validate core navigation, authentication, checko
 | Account Dropdown | Click "Account" | Shows My Profile & Logout options | Pass | |
 | Account > My Profile | Click | Redirect to Profile page | Pass | |
 | Account > Logout | Click | Logs user out, redirect to Home | Pass | |
-| Admin Dropdown | Click "Admin" | Shows admin options | Pass | |
-| Admin > Admin Panel | Click | Redirect to Admin Dashboard | Pass | |
-| Admin > Add New Product | Click | Redirect to Add Product page | Pass | |
-| Admin > Edit/Delete Product | Click | Redirect to Product Management page | Pass | |
+| Admin Dropdown (My Profile) | Click "Admin" | Shows admin options | Pass | |
+| Admin > Admin Panel (My Profile) | Click | Redirect to Admin Dashboard | Pass | |
+| Admin > Add New Product (My Profile)| Click | Redirect to Add Product page | Pass | |
+| Admin > Edit/Delete Product (My Profile)| Click | Redirect to Product Management page | Pass | |
 | **Footer** |||||
 | Footer links (Copyright, sitemap, privacy policy, 6 x icons) | Click | Redirect to respective pages | Pass | |
 | Newsletter ( Custom Model) | Click "Subscribe" | Show confirmation message | Pass | |
@@ -471,7 +471,7 @@ Manual testing was conducted to validate core navigation, authentication, checko
 | View full image | Click on product image | Opens larger image | Pass | |
 | Add to Basket | Click button | Adds item, show basket message | Pass | |
 | Keep Shopping | Click | Returns to product list | Pass | |
-| Logged out – Wishlist icon | Click | Redirect to Sign Up/Login | Pass | |
+| Logged out  | Click | Redirect to Sign Out/ and to Homepage | Pass | |
 | **Admin Product Controls** |||||
 | Edit button | Click | Redirect to edit form | Pass | |
 | Delete button | Click | Show delete confirmation modal | Pass | |
